@@ -148,10 +148,10 @@ uv run jupyter lab
 
 ## Équipe
 
-- [Franck Fambou](https://github.com/FranckFambou)
-- [Charlotte Martineau](https://github.com/CharlotteMartineau)
-- [Hector Chablis](https://github.com/HectorChablis)
-- [Valentine Martin](https://github.com/ValentineMartin)
+- [Franck Fambou](https://github.com/FranckF)
+- [Charlotte Martineau](https://github.com/cmartineau15)
+- [Hector Chablis](https://github.com/Hectotor)
+- [Valentine Martin](https://github.com/LabigV)
 
 ## Licence
 
