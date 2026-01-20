@@ -58,7 +58,8 @@ Projet_Spe_2/
 ├── scripts/                      # Scripts d'exécution
 │
 ├── .gitignore                    # Fichiers à ignorer
-├── requirements.txt              # Dépendances Python
+├── .python-version               # Version Python pour UV
+├── pyproject.toml                # Configuration et dépendances
 └── README.md                     # Ce fichier
 ```
 
