@@ -90,8 +90,7 @@ git clone https://github.com/[votre-username]/Projet_Spe_2.git
 cd Projet_Spe_2
 
 # Créer l'environnement virtuel et installer les dépendances avec UV
-uv venv
-uv pip install -e .
+uv sync
 
 # Activer l'environnement
 .venv\Scripts\activate  # Windows
@@ -99,7 +98,7 @@ uv pip install -e .
 source .venv/bin/activate  # Linux/macOS
 
 # Installer les dépendances de développement (optionnel)
-uv pip install -e ".[dev]"
+uv sync --group dev
 ```
 
 ### Commandes UV Utiles
