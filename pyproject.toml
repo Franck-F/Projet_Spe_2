@@ -36,7 +36,7 @@ dependencies = [
     
     # Interprétabilité
     "shap>=0.42.0",
-    "pytorch-grad-cam>=1.4.0",
+    "grad-cam>=1.4.8",
     
     # Medical Imaging
     "openslide-python>=1.2.0",
@@ -67,8 +67,8 @@ dev = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "pytest>=7.4.0",
     "black>=23.7.0",
     "ruff>=0.1.0",
