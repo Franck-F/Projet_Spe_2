@@ -1,13 +1,13 @@
 # Stratégie d'Obtention du Dataset CAMELYON17
 
-## 📋 Contexte
+## Contexte
 
 **Objectif** : Obtenir un dataset représentatif pour le projet CAMELYON17 avec labels pN  
 **Contrainte** : Éviter le téléchargement de 2+ TB de WSI brutes
 
 ---
 
-## 🔍 Exploration Initiale
+## Exploration Initiale
 
 ### Tentative 1 : Téléchargement Direct depuis AWS S3
 
@@ -15,16 +15,16 @@
 
 **Découvertes** :
 
-- ✅ 1000 WSI de 5 hôpitaux néerlandais
-- ✅ Labels pN disponibles dans `example.csv`
-- ✅ Stades : pN0, pN0(i+), pN1mi, pN1, pN2
-- ❌ Taille prohibitive : **~2.25 TB** pour 150 patients
+- 1000 WSI de 5 hôpitaux néerlandais
+- Labels pN disponibles dans `example.csv`
+- Stades : pN0, pN0(i+), pN1mi, pN1, pN2
+- Taille prohibitive : **~2.25 TB** pour 150 patients
 
 **Conclusion** : Approche non viable pour un projet académique
 
 ---
 
-## ✅ Solution Retenue : WILDS Dataset
+## Solution Retenue : WILDS Dataset
 
 ### Pourquoi WILDS ?
 
@@ -62,7 +62,7 @@ data/raw/wilds/camelyon17_v1.0/
 
 ---
 
-## 📊 Caractéristiques du Dataset
+## Caractéristiques du Dataset
 
 ### Taille et Composition
 
@@ -95,67 +95,7 @@ data/raw/wilds/camelyon17_v1.0/
 
 ---
 
-## 🎯 Stratégie d'Utilisation
-
-### Phase 1 : Modèle au Niveau Patch
-
-**Objectif** : Classifier chaque patch (normal vs tumoral)
-
-**Approche** :
-
-1. Entraîner un CNN (ResNet50, EfficientNet)
-2. Utiliser les splits WILDS (train/val/test)
-3. Évaluer avec AUC-ROC, F1-score
-
-### Phase 2 : Agrégation Patient
-
-**Objectif** : Prédire le stade pN par patient
-
-**Approche** :
-
-1. Agréger les prédictions de patchs par patient
-2. Utiliser des features :
-   - % de patchs tumoraux
-   - Probabilité moyenne/max
-   - Nombre de patchs positifs
-3. Entraîner un modèle XGBoost pour prédire pN
-
-### Phase 3 : IA Responsable
-
-**Fairness** :
-
-- Analyser les performances par hôpital
-- Détecter et corriger les biais
-
-**Transparence** :
-
-- SHAP pour l'agrégation
-- Grad-CAM pour les patchs
-
-**Monitoring** :
-
-- Drift detection
-- Performance tracking
-
----
-
-## 📁 Organisation des Données
-
-```
-data/
-├── raw/
-│   └── wilds/
-│       └── camelyon17_v1.0/      # Dataset WILDS (~10 GB)
-├── processed/
-│   ├── patient_pn_labels.csv     # Labels pN par patient
-│   └── train_val_test_splits.csv # Splits personnalisés
-└── annotations/
-    └── camelyon17_metadata.csv   # Métadonnées enrichies
-```
-
----
-
-## ✅ Validation de la Stratégie
+## Validation de la Stratégie
 
 ### Critères de Réussite
 
@@ -174,14 +114,8 @@ data/
 
 ---
 
-## 📝 Références
+## Références
 
 - **WILDS** : <https://wilds.stanford.edu/datasets/#camelyon17>
 - **Paper** : Koh et al., "WILDS: A Benchmark of in-the-Wild Distribution Shifts", ICML 2021
 - **CAMELYON17** : <https://camelyon17.grand-challenge.org/>
-
----
-
-**Date** : 2026-01-20  
-**Auteur** : Projet Spe 2 - CAMELYON17  
-**Statut** : ✅ Stratégie validée et en cours d'implémentation
