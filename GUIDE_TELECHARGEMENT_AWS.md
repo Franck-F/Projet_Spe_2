@@ -41,7 +41,7 @@ aws --version
 
 ---
 
-## 📋 Étape 2 : Explorer le Dataset
+## Étape 2 : Explorer le Dataset
 
 ### 2.1 Lister le Contenu du Bucket
 
@@ -68,7 +68,7 @@ aws s3 ls --no-sign-request s3://camelyon-dataset/CAMELYON17/ --recursive > data
 
 ---
 
-## 📋 Étape 3 : Télécharger les Métadonnées
+## Étape 3 : Télécharger les Métadonnées
 
 **Script** : `scripts/01_download_metadata.py`
 
@@ -103,7 +103,7 @@ for file in metadata_files:
     
     print(f"Téléchargement de {file}...")
     subprocess.run(cmd, check=True)
-    print(f"✅ {file} téléchargé")
+    print(f" {file} téléchargé")
 
 # Charger et afficher les statistiques
 print("\n=== Statistiques du Dataset ===")
@@ -125,7 +125,7 @@ uv run python scripts/01_download_metadata.py
 
 ---
 
-## 📋 Étape 4 : Sélection Stratifiée des Patients
+## Étape 4 : Sélection Stratifiée des Patients
 
 **Script** : `scripts/02_select_patients.py`
 
@@ -198,7 +198,7 @@ output_path = 'data/processed/selected_patients.csv'
 Path('data/processed').mkdir(parents=True, exist_ok=True)
 final_selection.to_csv(output_path, index=False)
 
-print(f"\n✅ Sélection sauvegardée : {output_path}")
+print(f"\n Sélection sauvegardée : {output_path}")
 ```
 
 **Exécution** :
