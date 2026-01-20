@@ -1,4 +1,4 @@
-# 🚀 Guide de Démarrage Rapide avec UV
+# Guide de Démarrage Rapide avec UV
 
 ## Installation de UV
 
@@ -111,11 +111,11 @@ uv run pytest
 
 ## Avantages de UV
 
-✅ **Ultra-rapide** : 10-100x plus rapide que pip  
-✅ **Résolution de dépendances** : Résout les conflits automatiquement  
-✅ **Cache intelligent** : Réutilise les packages déjà téléchargés  
-✅ **Compatible** : Fonctionne avec pip, requirements.txt, pyproject.toml  
-✅ **Moderne** : Suit les standards Python actuels (PEP 621)  
+- [x] **Ultra-rapide** : 10-100x plus rapide que pip  
+- [x] **Résolution de dépendances** : Résout les conflits automatiquement  
+- [x] **Cache intelligent** : Réutilise les packages déjà téléchargés  
+- [x] **Compatible** : Fonctionne avec pip, requirements.txt, pyproject.toml  
+- [x] **Moderne** : Suit les standards Python actuels (PEP 621)  
 
 ## Troubleshooting
 

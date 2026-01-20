@@ -63,7 +63,7 @@ Projet_Spe_2/
 └── README.md                     # Ce fichier
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 
@@ -117,52 +117,12 @@ uv pip sync
 uv run jupyter lab
 ```
 
-## 📋 Roadmap (9 semaines)
+## Stack Technique
 
-### Phase 0 : Cadrage (Semaine 1)
-
-- [x] Setup repository et architecture
-- [ ] Recherche bibliographique médicale
-- [ ] Documentation glossaire médical
-
-### Phase 1 : EDA (Semaines 1-2)
-
-- [ ] Analyse des WSI
-- [ ] Distribution des classes
-- [ ] Analyse des labels patients
-
-### Phase 2 : Prétraitement (Semaines 2-3)
-
-- [ ] Normalisation de coloration
-- [ ] Augmentation de données
-- [ ] Gestion du déséquilibre
-
-### Phase 3 : Modélisation Patch (Semaines 3-5)
-
-- [ ] Baseline CNN
-- [ ] Transfer Learning
-- [ ] Optimisation hyperparamètres
-
-### Phase 4 : Agrégation (Semaines 5-6)
-
-- [ ] Stratégies d'agrégation
-- [ ] Prédiction stade pN
-
-### Phase 5 : Évaluation (Semaines 6-7)
-
-- [ ] Métriques multi-niveaux
-- [ ] Analyse domain shift
-- [ ] Tests de robustesse
-
-### Phase 6 : Interprétabilité (Semaines 7-8)
-
-- [ ] Grad-CAM
-- [ ] Discussion éthique
-
-### Phase 7 : Documentation (Semaines 8-9)
-
-- [ ] Rapport final
-- [ ] Présentation
+- **Deep Learning** : PyTorch
+- **Visualisation** : Plotly
+- **Package Manager** : UV
+- **Notebooks** : Jupyter Lab
 
 ## Métriques Clés
 
