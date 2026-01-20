@@ -33,9 +33,6 @@ dependencies = [
     "matplotlib>=3.7.0",
     "seaborn>=0.12.0",
     
-    # Interprétabilité
-    "grad-cam>=1.4.8",
-    
     # Medical Imaging
     "openslide-python>=1.2.0",
     
@@ -59,7 +56,12 @@ dev = [
     "pytest>=7.4.0",
     "black>=23.7.0",
     "ruff>=0.1.0",
-    "shap>=0.42.0",  # Interprétabilité avancée (nécessite compilation)
+]
+
+# Interprétabilité (nécessite compilation, installer séparément si besoin)
+interpretability = [
+    "shap>=0.42.0",
+    "grad-cam>=1.4.8",
 ]
 
 [tool.black]
