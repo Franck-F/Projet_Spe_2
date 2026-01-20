@@ -62,27 +62,59 @@ Projet_Spe_2/
 └── README.md                     # Ce fichier
 ```
 
-## Installation
+## 🚀 Installation
 
 ### Prérequis
 
 - Python 3.8+
 - CUDA 11.0+ (pour GPU)
 - Git
+- UV (gestionnaire de paquets ultra-rapide)
 
-### Setup
+### Installation de UV
+
+```bash
+# Windows (PowerShell)
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Linux/macOS
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### Setup du Projet
 
 ```bash
 # Cloner le repository
 git clone https://github.com/[votre-username]/Projet_Spe_2.git
 cd Projet_Spe_2
 
-# Créer l'environnement virtuel
-python -m venv venv
-venv\Scripts\activate  # Windows
+# Créer l'environnement virtuel et installer les dépendances avec UV
+uv venv
+uv pip install -e .
 
-# Installer les dépendances
-pip install -r requirements.txt
+# Activer l'environnement
+.venv\Scripts\activate  # Windows
+# ou
+source .venv/bin/activate  # Linux/macOS
+
+# Installer les dépendances de développement (optionnel)
+uv pip install -e ".[dev]"
+```
+
+### Commandes UV Utiles
+
+```bash
+# Ajouter une nouvelle dépendance
+uv pip install nom-du-package
+
+# Mettre à jour les dépendances
+uv pip install --upgrade -e .
+
+# Synchroniser l'environnement
+uv pip sync
+
+# Lancer Jupyter
+uv run jupyter lab
 ```
 
 ## 📋 Roadmap (9 semaines)
