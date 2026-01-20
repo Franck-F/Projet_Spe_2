@@ -1,6 +1,13 @@
 # Projet Spe 2 - Détection de Métastases CAMELYON17
 
-## Objectif du Projet
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![UV](https://img.shields.io/badge/package%20manager-UV-orange)](https://github.com/astral-sh/uv)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.17+-blue.svg)](https://plotly.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: In Development](https://img.shields.io/badge/status-in%20development-orange)](https://github.com/Franck-F/Projet_Spe_2)
+
+## 🎯 Objectif du Projet
 
 Développement d'un système de détection automatique de métastases ganglionnaires dans le cancer du sein à partir d'images histopathologiques (Whole Slide Images - WSI) du dataset CAMELYON17.
 
