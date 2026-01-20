@@ -1,12 +1,12 @@
 # Projet Spe 2 - Détection de Métastases CAMELYON17
 
-## 🎯 Objectif du Projet
+## Objectif du Projet
 
 Développement d'un système de détection automatique de métastases ganglionnaires dans le cancer du sein à partir d'images histopathologiques (Whole Slide Images - WSI) du dataset CAMELYON17.
 
 **Enjeu clinique** : Classification automatique des patients selon le système pN (pN0, pN1, pN2, pN3) pour optimiser le diagnostic et le traitement.
 
-## 📊 Dataset
+## Dataset
 
 - **Source** : CAMELYON17 Challenge
 - **Type** : Whole Slide Images (WSI) de ganglions lymphatiques
@@ -16,7 +16,7 @@ Développement d'un système de détection automatique de métastases ganglionna
   - Niveau patch : normal vs tumoral
   - Niveau patient : stade pN (pN0, pN1, pN2, pN3)
 
-## 🏗️ Architecture du Projet
+## Architecture du Projet
 
 ```
 Projet_Spe_2/
@@ -36,7 +36,7 @@ Projet_Spe_2/
 │   ├── data/                     # Gestion des données
 │   ├── models/                   # Architectures et entraînement
 │   ├── evaluation/               # Métriques et évaluation
-│   ├── visualization/            # Visualisations Plotly
+│   ├── visualization/            # Visualisations 
 │   └── utils/                    # Utilitaires
 │
 ├── models/                       # Modèles sauvegardés
@@ -62,7 +62,7 @@ Projet_Spe_2/
 └── README.md                     # Ce fichier
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 
@@ -83,15 +83,6 @@ venv\Scripts\activate  # Windows
 
 # Installer les dépendances
 pip install -r requirements.txt
-```
-
-## 📤 Pousser sur GitHub
-
-```bash
-# Créer le repository sur GitHub, puis :
-git remote add origin https://github.com/[votre-username]/Projet_Spe_2.git
-git branch -M main
-git push -u origin main
 ```
 
 ## 📋 Roadmap (9 semaines)
@@ -141,7 +132,7 @@ git push -u origin main
 - [ ] Rapport final
 - [ ] Présentation
 
-## 🎯 Métriques Clés
+## Métriques Clés
 
 **Niveau Patch** :
 
@@ -156,19 +147,18 @@ git push -u origin main
 - Cohen's Kappa
 - Matrice de confusion
 
-## 👥 Équipe
+## Équipe
 
-[À compléter]
+- [Franck Fambou](https://github.com/FranckFambou)
+- [Charlotte Martineau](https://github.com/CharlotteMartineau)
+- [Hector Chablis](https://github.com/HectorChablis)
+- [Valentine Martin](https://github.com/ValentineMartin)
 
-## 📄 Licence
+## Licence
 
-[À définir]
+MIT License
 
-## 📚 Références
+## Références
 
 - CAMELYON17 Challenge: <https://camelyon17.grand-challenge.org/>
-- [Autres références à ajouter]
-
-## 🙏 Remerciements
-
-[À compléter]
+  -
