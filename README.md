@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: In Development](https://img.shields.io/badge/status-in%20development-orange)](https://github.com/Franck-F/Projet_Spe_2)
 
-## 🎯 Objectif du Projet
+## Objectif du Projet
 
 Développement d'un système de détection automatique de métastases ganglionnaires dans le cancer du sein à partir d'images histopathologiques (Whole Slide Images - WSI) du dataset CAMELYON17.
 
@@ -160,4 +160,3 @@ MIT License
 ## Références
 
 - CAMELYON17 Challenge: <https://camelyon17.grand-challenge.org/>
-  -
