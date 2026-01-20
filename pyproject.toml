@@ -3,7 +3,7 @@ name = "projet-spe-2"
 version = "0.1.0"
 description = "Système de détection automatique de métastases ganglionnaires - CAMELYON17"
 authors = [
-    {name = "Votre Équipe", email = "votre.email@example.com"}
+    {name = "Groupe 5"}
 ]
 readme = "README.md"
 requires-python = ">=3.8"
