@@ -7,24 +7,20 @@ from wilds import get_dataset
 from pathlib import Path
 import time
 
-print("=" * 60)
+
 print("Téléchargement du Dataset CAMELYON17 via WILDS")
-print("=" * 60)
 
 # Créer le dossier de destination
 data_dir = Path('data/raw/wilds')
 data_dir.mkdir(parents=True, exist_ok=True)
 
 print(f"\nDossier de destination : {data_dir.absolute()}")
-print(f"Taille estimée : ~50 GB")
-print(f"Temps estimé : 30-60 minutes\n")
 
 # Démarrer le téléchargement
 start_time = time.time()
 
 try:
     print("Téléchargement en cours...")
-    print("(Cela peut prendre du temps, soyez patient)\n")
     
     dataset = get_dataset(
         dataset="camelyon17",
@@ -33,11 +29,9 @@ try:
     )
     
     elapsed_time = time.time() - start_time
-    
-    print("\n" + "=" * 60)
+      
     print("Téléchargement terminé !")
-    print("=" * 60)
-    
+        
     print(f"\nTemps écoulé : {elapsed_time/60:.1f} minutes")
     print(f"Nombre total d'images : {len(dataset):,}")
     print(f"Taille des patchs : {dataset[0][0].shape}")

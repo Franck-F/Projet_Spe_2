@@ -15,7 +15,8 @@ Développement d'un système de détection automatique de métastases ganglionna
 
 ## Dataset
 
-- **Source** : CAMELYON17 Challenge
+- **Source** : CAMELYON17 Challenge & WILDS Benchmark
+- **Format** : Patchs 96x96 pré-extraits (Dataset WILDS)
 - **Type** : Whole Slide Images (WSI) de ganglions lymphatiques
 - **Coloration** : Hématoxyline et Éosine (H&E)
 - **Centres** : 5 hôpitaux différents
@@ -28,7 +29,8 @@ Développement d'un système de détection automatique de métastases ganglionna
 ```
 Projet_Spe_2/
 ├── data/                          # Données (non versionnées)
-│   ├── raw/                       # Données brutes CAMELYON17
+│   ├── raw/
+│   │   └── wilds/                 # Dataset WILDS CAMELYON17 (patchs)
 │   ├── processed/                 # Données prétraitées
 │   └── annotations/               # Fichiers d'annotations
 │
@@ -160,3 +162,4 @@ MIT License
 ## Références
 
 - CAMELYON17 Challenge: <https://camelyon17.grand-challenge.org/>
+- WILDS Benchmark: <https://wilds.stanford.edu/datasets/#camelyon17>

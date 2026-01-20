@@ -22,7 +22,7 @@ def extract_pn_labels():
             root_dir='data/raw/wilds'
         )
     except Exception as e:
-        print(f"❌ Erreur: Impossible de charger le dataset WILDS. Est-il téléchargé ?\n{e}")
+        print(f"Erreur: Impossible de charger le dataset WILDS. Est-il téléchargé ?\n{e}")
         return
 
     metadata_df = dataset.metadata_df
@@ -31,7 +31,7 @@ def extract_pn_labels():
     # 2. Charger le fichier example.csv (Labels officiels)
     labels_path = 'data/raw/metadata/camelyon17/example.csv'
     if not Path(labels_path).exists():
-        print(f"❌ Fichier {labels_path} introuvable.")
+        print(f"Fichier {labels_path} introuvable.")
         print("Veuillez exécuter scripts/download_metadata.py d'abord (ou le script qui a téléchargé example.csv)")
         return
         
@@ -87,7 +87,7 @@ def extract_pn_labels():
     # On va sauvegarder ce qu'on peut
     # Pour l'instant, on sauvegarde le mapping connu du example.csv
     patient_stages[['patient_id', 'stage']].to_csv(output_path, index=False)
-    print(f"\n✅ Mapping Patient -> Stage sauvegardé dans {output_path}")
+    print(f"\nMapping Patient -> Stage sauvegardé dans {output_path}")
     print("Contenu (5 premiers) :")
     print(patient_stages[['patient_id', 'stage']].head())
     
