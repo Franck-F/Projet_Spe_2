@@ -1,0 +1,1 @@
+Dataset type: <class 'wilds.datasets.camelyon17_dataset.Camelyon17Dataset'>
