@@ -18,7 +18,16 @@
 - 1000 WSI de 5 hôpitaux néerlandais
 - Labels pN disponibles dans `example.csv`
 - Stades : pN0, pN0(i+), pN1mi, pN1, pN2
+- [x] Labels pN disponibles
 - Taille prohibitive : **~2.25 TB** pour 150 patients
+
+**Niveau Patient (pN stages)** :
+
+- `pN0` : Aucun ganglion atteint
+- `pN0(i+)` : Cellules tumorales isolées
+- `pN1mi` : Micrométastases
+- `pN1` : 1-3 ganglions positifs
+- `pN2` : 4-9 ganglions positifs
 
 **Conclusion** : Approche non viable pour un projet académique
 
@@ -78,14 +87,6 @@ data/raw/wilds/camelyon17_v1.0/
 - `0` : Normal
 - `1` : Tumoral
 
-**Niveau Patient (pN stages)** :
-
-- `pN0` : Aucun ganglion atteint
-- `pN0(i+)` : Cellules tumorales isolées
-- `pN1mi` : Micrométastases
-- `pN1` : 1-3 ganglions positifs
-- `pN2` : 4-9 ganglions positifs
-
 ### Métadonnées
 
 - **Hospital** : ID de l'hôpital (0-4) pour analyse de fairness
@@ -99,8 +100,7 @@ data/raw/wilds/camelyon17_v1.0/
 
 ### Critères de Réussite
 
-- [x] Dataset obtenu (< 50 GB)
-- [x] Labels pN disponibles
+- [x] Dataset obtenu (< 15 GB)
 - [x] Métadonnées hôpital pour fairness
 - [x] Splits train/val/test définis
 - [x] Compatible avec notre architecture
@@ -109,8 +109,8 @@ data/raw/wilds/camelyon17_v1.0/
 
 - Patchs 96×96 (au lieu de 224×224)
   - **Solution** : Redimensionner ou fine-tuner sur 96×96
-- Pas de pN3 dans le dataset
-  - **Solution** : Travailler avec 5 classes (pN0-pN2)
+- Pas de pN dans le dataset
+  - **Solution** : Travailler avec niveau de patch normal/tumoral
 
 ---
 
