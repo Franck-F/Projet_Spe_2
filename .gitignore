@@ -13,6 +13,11 @@ eggs/
 lib/
 lib64/
 parts/
+
+# UV
+.venv/
+uv.lock
+.python-version
 sdist/
 var/
 wheels/
