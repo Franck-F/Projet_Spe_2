@@ -1,13 +1,13 @@
 # Cahier des Charges Complet - Projet CAMELYON17
 
-## 📋 Informations Officielles du Projet
+## Informations Officielles du Projet
 
 ### Contexte Médical
 
 **Challenge** : CAMELYON17 (<https://camelyon17.grand-challenge.org/>)  
 **Objectif clinique** : Développer des méthodes automatiques pour détecter les métastases dans les ganglions lymphatiques de patientes atteintes d'un cancer du sein.
 
-**⚠️ IMPORTANT** : Vous ne construisez pas "juste un modèle", vous concevez un **système d'aide au diagnostic médical**.
+**IMPORTANT** : Vous ne construisez pas "juste un modèle", vous concevez un **système d'aide au diagnostic médical**.
 
 ### Objectifs Principaux
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 🔬 Description du Dataset CAMELYON17
+## Description du Dataset CAMELYON17
 
 ### 1. Nature des Données
 
@@ -25,7 +25,7 @@
 - Images issues de microscopes numériques
 - Coloration H&E (Hématoxyline & Éosine)
 - Très haute résolution (plusieurs gigapixels par lame)
-- **⚠️ Les WSI ne peuvent pas être traitées directement par un CNN classique**
+- **Les WSI ne peuvent pas être traitées directement par un CNN classique**
 
 ### 2. Découpage en Patchs
 
@@ -61,7 +61,7 @@ Pour rendre les données exploitables :
 
 ---
 
-## 🎯 Exigences Techniques
+## Exigences Techniques
 
 ### Architecture du Système
 
@@ -95,7 +95,7 @@ Prédiction stade pN (pN0, pN1, pN2, pN3)
 
 ---
 
-## 🤖 Intégration Module 4 : IA Responsable
+## Intégration Module 4 : IA Responsable
 
 ### 1. Équité (Fairness)
 
@@ -291,7 +291,7 @@ def monitor_performance(model, data_stream):
             baseline_perf = np.mean(performance_history[:10])
             
             if recent_perf < baseline_perf - 0.05:
-                print("⚠️ DRIFT DÉTECTÉ : Réentraînement recommandé")
+                print(" DRIFT DÉTECTÉ : Réentraînement recommandé")
 ```
 
 **3. Target Drift** :
@@ -305,7 +305,7 @@ def monitor_prediction_distribution(predictions, baseline_dist):
     kl_div = np.sum(current_dist * np.log(current_dist / baseline_dist))
     
     if kl_div > threshold:
-        print("⚠️ Distribution des prédictions a changé")
+        print(" Distribution des prédictions a changé")
 ```
 
 ### 4. Traduire Métriques Techniques → Indicateurs Business
@@ -349,77 +349,7 @@ print(f"Coûts évités : {cost_avoided:,.0f} €/an")
 
 ---
 
-## 📊 Livrables Attendus
-
-### 1. Code et Notebooks
-
-**Structure** :
-
-```
-notebooks/
-├── 01_EDA.ipynb                    # Analyse exploratoire
-├── 02_preprocessing.ipynb          # Prétraitement
-├── 03_modeling_patch.ipynb         # Modélisation CNN
-├── 04_aggregation.ipynb            # Agrégation patient
-├── 05_evaluation.ipynb             # Évaluation complète
-└── 06_fairness_transparency.ipynb  # ⭐ NOUVEAU : IA responsable
-```
-
-### 2. Rapport Final (Max 15 pages)
-
-**Structure imposée** :
-
-1. **Introduction** (1 page)
-   - Contexte médical
-   - Enjeux cliniques
-   - Objectifs
-
-2. **Données et Prétraitement** (2 pages)
-   - Description CAMELYON17
-   - Stratégie de sous-échantillonnage
-   - Pipeline de preprocessing
-
-3. **Méthodologie** (4 pages)
-   - Architecture CNN
-   - Stratégie d'agrégation
-   - Gestion du déséquilibre
-
-4. **Résultats** (4 pages)
-   - Performances (patch + patient)
-   - Comparaison des approches
-   - Visualisations
-
-5. **⭐ IA Responsable** (3 pages) - **NOUVEAU**
-   - **Analyse d'équité** :
-     - Performances par hôpital
-     - Métriques de fairness
-     - Stratégies de correction
-   - **Transparence** :
-     - SHAP / Grad-CAM
-     - Interprétation des décisions
-   - **Monitoring** :
-     - Stratégie de drift detection
-     - Plan de maintenance
-
-6. **Discussion et Limites** (1 page)
-   - Biais identifiés
-   - Recommandations cliniques
-   - Travaux futurs
-
-### 3. Présentation Orale (15 min)
-
-**Slides obligatoires** :
-
-1. Contexte médical et enjeux
-2. Dataset et défis
-3. Architecture du système
-4. Résultats (performances)
-5. **⭐ Équité et transparence** (2-3 slides)
-6. Recommandations et conclusion
-
----
-
-## 🔧 Outils et Bibliothèques Recommandés
+## Outils et Bibliothèques Recommandés
 
 ### IA Responsable
 
@@ -455,7 +385,7 @@ uv sync --group monitoring
 
 ---
 
-## ✅ Checklist de Conformité
+## Checklist de Conformité
 
 ### Exigences Projet
 
@@ -495,19 +425,7 @@ uv sync --group monitoring
 
 ---
 
-## 🎯 Critères d'Évaluation (Estimés)
-
-| Critère | Poids | Description |
-|---------|-------|-------------|
-| **Performances techniques** | 30% | Recall, Precision, Accuracy (patch + patient) |
-| **Méthodologie** | 25% | Rigueur scientifique, choix justifiés |
-| **IA Responsable** | 25% | Équité, transparence, monitoring |
-| **Documentation** | 10% | Clarté du rapport et du code |
-| **Présentation** | 10% | Qualité de la communication orale |
-
----
-
-## 📚 Ressources Complémentaires
+## Ressources Complémentaires
 
 ### Fairness & Bias
 
@@ -528,4 +446,4 @@ uv sync --group monitoring
 
 ---
 
-**Ce document constitue votre cahier des charges complet. Assurez-vous de couvrir TOUS les aspects, en particulier l'IA responsable qui est au cœur du Module 4 ! 🚀**
+**Ce document constitue le cahier des charges complet.**
