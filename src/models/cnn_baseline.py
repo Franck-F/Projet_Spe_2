@@ -46,15 +46,26 @@ class BaselineCNN(nn.Module):
             nn.MaxPool2d(kernel_size=2, stride=2),
         )
         
+        
+        # Calcul automatique de la taille de l'input pour la couche dense
+        self._to_linear = None
+        self._get_conv_output((3, 96, 96)) # Initialisation pour 96x96 par défaut, mais s'adapte
+        
         # Couches fully connected
         self.classifier = nn.Sequential(
             nn.Dropout(dropout),
-            nn.Linear(256 * 14 * 14, 512),  # Pour input 224x224
+            nn.Linear(self._to_linear, 512),
             nn.ReLU(inplace=True),
             nn.Dropout(dropout),
             nn.Linear(512, num_classes)
         )
         
+    def _get_conv_output(self, shape):
+        batch_size = 1
+        input = torch.autograd.Variable(torch.rand(batch_size, *shape))
+        output_feat = self.features(input)
+        self._to_linear = int(output_feat.data.view(batch_size, -1).size(1))
+
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """
         Forward pass
@@ -65,19 +76,24 @@ class BaselineCNN(nn.Module):
         Returns:
             Logits (B, num_classes)
         """
+        # Recalculer la taille si l'input change drastiquement (optionnel, ici on suppose fixe après init)
+        # Pour être robuste, on peut recalculer self._to_linear si les dimensions changent, 
+        # mais on ne peut pas changer la couche Linear dynamiquement en training.
+        # Donc on suppose que l'input size est cohérent avec l'init.
+        
         x = self.features(x)
         x = torch.flatten(x, 1)
         x = self.classifier(x)
         return x
 
 
-def get_model_summary(model: nn.Module, input_size: tuple = (3, 224, 224)):
+def get_model_summary(model: nn.Module, input_size: tuple = (3, 96, 96)):
     """
     Affiche un résumé du modèle
     
     Args:
         model: Modèle PyTorch
-        input_size: Taille de l'input
+        input_size: Taille de l'input (C, H, W)
     """
     from torchsummary import summary
     summary(model, input_size)
