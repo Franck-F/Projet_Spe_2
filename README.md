@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔬 Cancer Image Classifier
 
-## Getting Started
+Application Next.js pour classifier les images de patches histologiques et détecter la présence de cancer.
 
-First, run the development server:
+## 🚀 Fonctionnalités
 
+- **Upload d'images** : Interface drag-and-drop pour uploader des images
+- **Analyse automatique** : Détection du label de cancer (0 = pas de cancer, 1 = cancer)
+- **Affichage des résultats** : Métadonnées complètes avec statistiques des pixels
+- **Interface moderne** : Design responsive avec Tailwind CSS
+
+## 📋 Prérequis
+
+- Node.js 18+ 
+- Python 3.9+
+- Les dépendances Python : `matplotlib`, `numpy`, `Pillow`
+- Le fichier `metadata.csv` dans le répertoire parent
+- Le script `analyze_image_metadata.py` dans le répertoire parent
+
+## 🛠️ Installation
+
+1. Installer les dépendances Python :
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pip3 install matplotlib numpy Pillow
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Installer les dépendances Next.js :
+```bash
+cd cancer-image-classifier
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ▶️ Démarrage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Démarrer le serveur de développement :
+```bash
+npm run dev
+```
 
-## Learn More
+2. Ouvrir [http://localhost:3000](http://localhost:3000) dans votre navigateur
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Structure du projet
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+cancer-image-classifier/
+├── app/
+│   ├── api/
+│   │   └── analyze/
+│   │       └── route.ts      # API route pour analyser les images
+│   └── page.tsx              # Page principale
+├── components/
+│   ├── ImageUpload.tsx       # Composant d'upload d'image
+│   └── ResultsDisplay.tsx    # Composant d'affichage des résultats
+└── README.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Configuration
 
-## Deploy on Vercel
+Si vos fichiers Python sont dans un autre emplacement, modifiez les chemins dans `app/api/analyze/route.ts` :
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```typescript
+const scriptPath = join(process.cwd(), '..', 'analyze_image_metadata.py');
+const metadataPath = join(process.cwd(), '..', 'metadata.csv');
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Utilisation
+
+1. Ouvrez l'application dans votre navigateur
+2. Glissez-déposez une image ou cliquez pour sélectionner
+3. L'image sera analysée automatiquement
+4. Les résultats s'afficheront avec :
+   - Label de cancer (0 ou 1)
+   - Métadonnées complètes
+   - Statistiques des pixels par canal
+
+## 🎨 Format des images
+
+L'application fonctionne avec les images au format Camelyon17 :
+- Format : PNG
+- Dimensions : 96×96 pixels (ou autres)
+- Nom de fichier : `patch_patient_XXX_node_X_x_XXXX_y_XXXX.png`
+
+## 🐛 Dépannage
+
+- **Erreur "Python script not found"** : Vérifiez que le chemin vers `analyze_image_metadata.py` est correct
+- **Erreur "metadata.csv not found"** : Assurez-vous que le fichier `metadata.csv` est dans le répertoire parent
+- **Erreur d'upload** : Vérifiez que le dossier `/tmp` est accessible en écriture
+
+## 📄 Licence
+
+ISC

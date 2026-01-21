@@ -1,65 +1,60 @@
-import Image from "next/image";
+'use client';
+
+import { useState } from 'react';
+import ImageUpload from '@/components/ImageUpload';
+import ResultsDisplay from '@/components/ResultsDisplay';
 
 export default function Home() {
+  const [results, setResults] = useState<any>(null);
+  const [loading, setLoading] = useState(false);
+
+  const handleAnalysisComplete = (data: any) => {
+    console.log('📊 Résultats reçus dans la page:', data);
+    setResults(data);
+    setLoading(false);
+    
+    if (!data) {
+      console.warn('⚠️ Aucune donnée reçue');
+    }
+  };
+
+  const handleUploadStart = () => {
+    setLoading(true);
+    setResults(null);
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12 px-4">
+      <div className="max-w-4xl mx-auto">
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">
+            🔬 Cancer Image Classifier
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-lg text-gray-600">
+            Uploadez une image de patch histologique pour détecter la présence de cancer
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className="bg-white rounded-lg shadow-xl p-6 mb-6">
+          <ImageUpload 
+            onUploadStart={handleUploadStart}
+            onAnalysisComplete={handleAnalysisComplete}
+          />
         </div>
-      </main>
-    </div>
+
+        {loading && (
+          <div className="bg-white rounded-lg shadow-xl p-6">
+            <div className="flex items-center justify-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+              <span className="ml-4 text-gray-600">Analyse en cours...</span>
+            </div>
+          </div>
+        )}
+
+        {results && (
+          <ResultsDisplay results={results} />
+        )}
+      </div>
+    </main>
   );
 }

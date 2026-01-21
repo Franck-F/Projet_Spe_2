@@ -39,3 +39,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Données volumineuses
+metadata.csv
+*.csv
+
+# Liens symboliques vers fichiers externes
+analyze_image_metadata.py
+
+# Fichiers temporaires
+*.png
+*.jpg
+*.jpeg
+image_analysis.png
+simple_label*.png
+patch_*.png
+
+# Logs et fichiers de test
+TEST_UPLOAD.md
+VERIFICATION.md
+test-paths.js
