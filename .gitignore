@@ -149,8 +149,10 @@ coverage.xml
 dmypy.json
 
 # Données volumineuses (Next.js app)
-metadata.csv
+# metadata.csv est maintenant versionné (14MB - acceptable pour GitHub)
+# Exception pour metadata.csv, les autres CSV sont ignorés
 *.csv
+!metadata.csv
 
 # Fichiers temporaires d'images
 *.png
