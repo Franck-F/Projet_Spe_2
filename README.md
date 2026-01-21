@@ -101,13 +101,8 @@ cd Projet_Spe_2
 # Créer l'environnement virtuel et installer les dépendances avec UV
 uv sync
 
-# Activer l'environnement
-.venv\Scripts\activate  # Windows
-# ou
-source .venv/bin/activate  # Linux/macOS
-
-# Installer les dépendances de développement (optionnel)
-uv sync --group dev
+# Lancer Jupyter Lab directement
+uv run jupyter lab
 ```
 
 ### Commandes UV Utiles
