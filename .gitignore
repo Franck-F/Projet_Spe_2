@@ -152,9 +152,6 @@ dmypy.json
 metadata.csv
 *.csv
 
-# Liens symboliques vers fichiers externes
-analyze_image_metadata.py
-
 # Fichiers temporaires d'images
 *.png
 *.jpg
@@ -163,7 +160,5 @@ image_analysis.png
 simple_label*.png
 patch_*.png
 
-# Logs et fichiers de test (Next.js app)
-TEST_UPLOAD.md
-VERIFICATION.md
-test-paths.js
+# Données volumineuses (ne pas versionner metadata.csv - trop volumineux)
+# metadata.csv est ignoré mais peut être ajouté avec git add -f si nécessaire
