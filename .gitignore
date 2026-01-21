@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env.local
 
 # vercel
 .vercel
@@ -40,14 +41,121 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Données volumineuses
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+
+# UV
+.venv/
+uv.lock
+.python-version
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Data files (large datasets)
+data/raw/
+data/processed/
+data/annotations/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/annotations/.gitkeep
+
+# Model files (large binary files)
+models/checkpoints/*
+models/final/*.pth
+models/final/*.h5
+models/final/*.pkl
+!models/checkpoints/.gitkeep
+!models/final/.gitkeep
+
+# Results
+results/predictions/*
+!results/predictions/.gitkeep
+
+# DVC
+.dvc/tmp
+.dvc/cache
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Données volumineuses (Next.js app)
 metadata.csv
 *.csv
 
 # Liens symboliques vers fichiers externes
 analyze_image_metadata.py
 
-# Fichiers temporaires
+# Fichiers temporaires d'images
 *.png
 *.jpg
 *.jpeg
@@ -55,7 +163,7 @@ image_analysis.png
 simple_label*.png
 patch_*.png
 
-# Logs et fichiers de test
+# Logs et fichiers de test (Next.js app)
 TEST_UPLOAD.md
 VERIFICATION.md
 test-paths.js

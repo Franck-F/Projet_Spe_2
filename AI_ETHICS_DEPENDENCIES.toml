@@ -1,0 +1,18 @@
+# Dépendances pour IA Responsable (Module 4)
+
+[dependency-groups]
+fairness = [
+    "fairlearn>=0.8.0",      # Métriques et mitigation de biais
+    "aif360>=0.5.0",         # AI Fairness 360 (IBM)
+]
+
+interpretability = [
+    "shap>=0.42.0",          # SHAP values
+    "lime>=0.2.0",           # LIME
+    "grad-cam>=1.4.8",       # Grad-CAM
+]
+
+monitoring = [
+    "evidently>=0.4.0",      # Drift detection
+    "alibi-detect>=0.11.0",  # Outlier & drift detection
+]

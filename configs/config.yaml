@@ -1,0 +1,153 @@
+# Configuration Principale - Projet CAMELYON17
+
+# Projet
+project:
+  name: "CAMELYON17_Metastasis_Detection"
+  version: "0.1.0"
+  seed: 42
+
+# Chemins
+paths:
+  data_root: "data/"
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  annotations: "data/annotations/"
+  models: "models/"
+  results: "results/"
+  logs: "logs/"
+
+# Données
+data:
+  image_size: [224, 224]  # Taille des patchs
+  patch_level: 0  # Niveau de résolution WSI
+  num_workers: 4
+  pin_memory: true
+  
+  # Split stratégique
+  split:
+    train_ratio: 0.6
+    val_ratio: 0.2
+    test_ratio: 0.2
+    stratify_by: "patient"  # Crucial: pas de data leakage
+    
+  # Gestion déséquilibre
+  class_weights:
+    normal: 1.0
+    tumor: 2.0  # Priorité détection métastases
+    
+# Prétraitement
+preprocessing:
+  stain_normalization:
+    method: "macenko"  # ou "reinhard", "vahadane"
+    target_image: null  # Chemin vers image de référence
+    
+  augmentation:
+    horizontal_flip: 0.5
+    vertical_flip: 0.5
+    rotation: 15  # degrés
+    color_jitter:
+      brightness: 0.1
+      contrast: 0.1
+      saturation: 0.1
+      hue: 0.05
+    gaussian_blur: 0.1
+    
+  quality_control:
+    min_tissue_ratio: 0.5  # % minimum de tissu dans patch
+    blur_threshold: 100  # Laplacian variance
+
+# Modèle
+model:
+  architecture: "resnet50"  # resnet50, efficientnet-b3, densenet121
+  pretrained: true
+  num_classes: 2  # normal, tumor
+  dropout: 0.5
+  
+  # Transfer Learning
+  freeze_layers: true
+  unfreeze_epoch: 5  # Dégelage progressif
+
+# Entraînement
+training:
+  batch_size: 32
+  epochs: 50
+  early_stopping:
+    patience: 10
+    min_delta: 0.001
+    
+  optimizer:
+    name: "adam"  # adam, sgd, adamw
+    lr: 0.0001
+    weight_decay: 0.0001
+    
+  scheduler:
+    name: "reduce_on_plateau"  # cosine, step, reduce_on_plateau
+    factor: 0.5
+    patience: 5
+    
+  loss:
+    name: "weighted_cross_entropy"  # focal_loss, cross_entropy
+    focal_gamma: 2.0  # Si focal loss
+    
+  mixed_precision: true  # AMP pour accélération GPU
+
+# Agrégation Patch → Patient
+aggregation:
+  method: "statistical"  # statistical, ml_model, mil
+  
+  statistical:
+    threshold_pn0: 0.0  # % patchs tumoraux
+    threshold_pn1: 0.05
+    threshold_pn2: 0.20
+    
+  ml_model:
+    algorithm: "xgboost"  # random_forest, xgboost
+    features:
+      - "tumor_percentage"
+      - "max_probability"
+      - "mean_probability"
+      - "std_probability"
+      - "num_tumor_patches"
+
+# Évaluation
+evaluation:
+  metrics:
+    patch_level:
+      - "accuracy"
+      - "precision"
+      - "recall"
+      - "f1_score"
+      - "f2_score"  # Pondération recall
+      - "auc_roc"
+      - "auc_pr"
+      
+    patient_level:
+      - "accuracy"
+      - "cohen_kappa"
+      - "confusion_matrix"
+      
+  interpretability:
+    methods:
+      - "grad_cam"
+      - "grad_cam_plus_plus"
+      
+  robustness:
+    domain_shift: true  # Analyse par hôpital
+    perturbations: true  # Bruit, flou, etc.
+
+# Logging et Tracking
+logging:
+  level: "INFO"
+  use_wandb: true
+  use_mlflow: false
+  use_tensorboard: true
+  
+  wandb:
+    project: "camelyon17-metastasis"
+    entity: null  # Votre username W&B
+
+# Ressources
+resources:
+  device: "cuda"  # cuda, cpu, mps (Mac M1/M2)
+  gpu_ids: [0]
+  num_workers: 4
