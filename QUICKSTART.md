@@ -12,14 +12,10 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 git clone https://github.com/[votre-username]/Projet_Spe_2.git
 cd Projet_Spe_2
 
-# 3. Créer l'environnement et installer les dépendances
-uv venv
-uv pip install -e .
+# 3. Installer les dépendances (Automatique avec UV)
+uv sync
 
-# 4. Activer l'environnement
-.venv\Scripts\activate  # Windows
-
-# 5. Lancer Jupyter Lab
+# 4. Lancer Jupyter Lab directement
 uv run jupyter lab
 ```
 

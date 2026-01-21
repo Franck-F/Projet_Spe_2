@@ -46,9 +46,9 @@ venv.bak/
 .vscode/
 
 # Data files (large datasets)
-data/raw/*
-data/processed/*
-data/annotations/*
+data/raw/
+data/processed/
+data/annotations/
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/annotations/.gitkeep
