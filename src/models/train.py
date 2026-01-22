@@ -1,173 +1,113 @@
-"""
-Pipeline d'entraînement pour les modèles
-"""
-
 import torch
 import torch.nn as nn
+import torch.optim as optim
 from torch.utils.data import DataLoader
-from typing import Optional, Dict
-from tqdm import tqdm
-import numpy as np
-
+from tqdm.auto import tqdm
+import time
+from pathlib import Path
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 
 class Trainer:
     """
-    Classe pour gérer l'entraînement des modèles
+    Classe utilitaire pour gérer l'entraînement du modèle.
     """
-    
-    def __init__(self,
-                 model: nn.Module,
-                 criterion: nn.Module,
-                 optimizer: torch.optim.Optimizer,
-                 device: str = 'cuda',
-                 scheduler: Optional[torch.optim.lr_scheduler._LRScheduler] = None):
-        """
-        Args:
-            model: Modèle PyTorch
-            criterion: Fonction de loss
-            optimizer: Optimiseur
-            device: Device ('cuda' ou 'cpu')
-            scheduler: Learning rate scheduler (optionnel)
-        """
+    def __init__(self, model, train_loader, val_loader, criterion, optimizer, device, save_dir='models'):
         self.model = model.to(device)
+        self.train_loader = train_loader
+        self.val_loader = val_loader
         self.criterion = criterion
         self.optimizer = optimizer
         self.device = device
-        self.scheduler = scheduler
+        self.save_dir = Path(save_dir)
+        self.save_dir.mkdir(parents=True, exist_ok=True)
         
-        self.train_losses = []
-        self.val_losses = []
-        self.train_accs = []
-        self.val_accs = []
-        
-    def train_epoch(self, train_loader: DataLoader) -> Dict[str, float]:
-        """
-        Entraîne le modèle pour une époque
-        
-        Args:
-            train_loader: DataLoader d'entraînement
-            
-        Returns:
-            Dictionnaire avec loss et accuracy
-        """
+        self.history = {'train_loss': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
+        self.best_val_loss = float('inf')
+
+    def train_epoch(self):
         self.model.train()
         running_loss = 0.0
-        correct = 0
-        total = 0
         
-        pbar = tqdm(train_loader, desc='Training')
-        for inputs, labels in pbar:
-            inputs = inputs.to(self.device)
-            labels = labels.to(self.device)
+        pbar = tqdm(self.train_loader, desc="Training")
+        for images, labels, _ in pbar: # On ignore les métadonnées ici
+            images = images.to(self.device)
+            labels = labels.float().to(self.device).view(-1, 1) # (Batch, 1)
+            
+            # Zero grad
+            self.optimizer.zero_grad()
             
             # Forward
-            self.optimizer.zero_grad()
-            outputs = self.model(inputs)
+            outputs = self.model(images)
             loss = self.criterion(outputs, labels)
             
             # Backward
             loss.backward()
             self.optimizer.step()
             
-            # Statistiques
-            running_loss += loss.item()
-            _, predicted = outputs.max(1)
-            total += labels.size(0)
-            correct += predicted.eq(labels).sum().item()
+            running_loss += loss.item() * images.size(0)
+            pbar.set_postfix({'loss': loss.item()})
             
-            # Mise à jour de la barre de progression
-            pbar.set_postfix({
-                'loss': running_loss / (pbar.n + 1),
-                'acc': 100. * correct / total
-            })
-        
-        epoch_loss = running_loss / len(train_loader)
-        epoch_acc = 100. * correct / total
-        
-        return {'loss': epoch_loss, 'accuracy': epoch_acc}
-        
-    def validate(self, val_loader: DataLoader) -> Dict[str, float]:
-        """
-        Évalue le modèle sur le set de validation
-        
-        Args:
-            val_loader: DataLoader de validation
-            
-        Returns:
-            Dictionnaire avec loss et accuracy
-        """
+        epoch_loss = running_loss / len(self.train_loader.dataset)
+        return epoch_loss
+
+    def evaluate(self):
         self.model.eval()
         running_loss = 0.0
-        correct = 0
-        total = 0
+        all_labels = []
+        all_preds = []
+        all_probs = []
         
         with torch.no_grad():
-            for inputs, labels in tqdm(val_loader, desc='Validation'):
-                inputs = inputs.to(self.device)
-                labels = labels.to(self.device)
+            for images, labels, _ in tqdm(self.val_loader, desc="Validation"):
+                images = images.to(self.device)
+                labels = labels.float().to(self.device).view(-1, 1)
                 
-                outputs = self.model(inputs)
+                outputs = self.model(images)
                 loss = self.criterion(outputs, labels)
                 
-                running_loss += loss.item()
-                _, predicted = outputs.max(1)
-                total += labels.size(0)
-                correct += predicted.eq(labels).sum().item()
-        
-        epoch_loss = running_loss / len(val_loader)
-        epoch_acc = 100. * correct / total
-        
-        return {'loss': epoch_loss, 'accuracy': epoch_acc}
-        
-    def fit(self,
-            train_loader: DataLoader,
-            val_loader: DataLoader,
-            epochs: int,
-            early_stopping_patience: int = 10):
-        """
-        Entraîne le modèle
-        
-        Args:
-            train_loader: DataLoader d'entraînement
-            val_loader: DataLoader de validation
-            epochs: Nombre d'époques
-            early_stopping_patience: Patience pour early stopping
-        """
-        best_val_loss = float('inf')
-        patience_counter = 0
-        
-        for epoch in range(epochs):
-            print(f'\nEpoch {epoch+1}/{epochs}')
-            
-            # Entraînement
-            train_metrics = self.train_epoch(train_loader)
-            self.train_losses.append(train_metrics['loss'])
-            self.train_accs.append(train_metrics['accuracy'])
-            
-            # Validation
-            val_metrics = self.validate(val_loader)
-            self.val_losses.append(val_metrics['loss'])
-            self.val_accs.append(val_metrics['accuracy'])
-            
-            print(f"Train Loss: {train_metrics['loss']:.4f}, Train Acc: {train_metrics['accuracy']:.2f}%")
-            print(f"Val Loss: {val_metrics['loss']:.4f}, Val Acc: {val_metrics['accuracy']:.2f}%")
-            
-            # Learning rate scheduling
-            if self.scheduler:
-                self.scheduler.step(val_metrics['loss'])
-            
-            # Early stopping
-            if val_metrics['loss'] < best_val_loss:
-                best_val_loss = val_metrics['loss']
-                patience_counter = 0
-                # Sauvegarder le meilleur modèle
-                torch.save(self.model.state_dict(), 'best_model.pth')
-            else:
-                patience_counter += 1
+                running_loss += loss.item() * images.size(0)
                 
-            if patience_counter >= early_stopping_patience:
-                print(f'\nEarly stopping après {epoch+1} époques')
-                break
+                # Conversion pour scikit-learn
+                probs = torch.sigmoid(outputs).cpu().numpy()
+                preds = (probs > 0.5).astype(int)
+                
+                all_labels.extend(labels.cpu().numpy())
+                all_preds.extend(preds)
+                all_probs.extend(probs)
         
-        # Charger le meilleur modèle
-        self.model.load_state_dict(torch.load('best_model.pth'))
+        epoch_loss = running_loss / len(self.val_loader.dataset)
+        acc = accuracy_score(all_labels, all_preds)
+        f1 = f1_score(all_labels, all_preds)
+        
+        return epoch_loss, acc, f1
+
+    def train(self, num_epochs=10):
+        print(f"Démarrage de l'entraînement sur {self.device}...")
+        start_time = time.time()
+        
+        for epoch in range(num_epochs):
+            print(f"\nEpoch {epoch+1}/{num_epochs}")
+            
+            # Train
+            train_loss = self.train_epoch()
+            
+            # Validate
+            val_loss, val_acc, val_f1 = self.evaluate()
+            
+            # Logging
+            self.history['train_loss'].append(train_loss)
+            self.history['val_loss'].append(val_loss)
+            self.history['val_acc'].append(val_acc)
+            self.history['val_f1'].append(val_f1)
+            
+            print(f"Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.4f} | Val F1: {val_f1:.4f}")
+            
+            # Checkpointing (Best Loss Model)
+            if val_loss < self.best_val_loss:
+                print(f"✨ Amélioration (Loss: {self.best_val_loss:.4f} -> {val_loss:.4f}). Sauvegarde...")
+                self.best_val_loss = val_loss
+                torch.save(self.model.state_dict(), self.save_dir / 'best_model.pth')
+                
+        total_time = time.time() - start_time
+        print(f"\nEntraînement terminé en {total_time/60:.2f} minutes.")
+        return self.history
