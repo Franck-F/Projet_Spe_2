@@ -1,148 +1,148 @@
 patient,node,x_coord,y_coord,path,center,tumor,Status,grid_x,grid_y,pred,prob,label,correct,error_type
-87,0,13472,12384,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_13472_y_12384.png,4.0,0,Sain (Normal),3,2,1,0.6223993,0.0,0,Faux Positif
-62,2,22976,40192,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_22976_y_40192.png,3.0,0,Sain (Normal),5,7,0,0.48160702,0.0,1,Correct
-60,3,17792,30848,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_17792_y_30848.png,3.0,0,Sain (Normal),4,5,0,0.49603748,0.0,1,Correct
-72,0,7456,45696,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_7456_y_45696.png,3.0,0,Sain (Normal),1,8,1,0.5395765,0.0,0,Faux Positif
-68,1,18912,15424,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_18912_y_15424.png,3.0,0,Sain (Normal),4,2,0,0.31231698,0.0,1,Correct
-61,4,2688,43200,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_2688_y_43200.png,3.0,0,Sain (Normal),0,8,0,0.43980885,0.0,1,Correct
-92,1,33344,13824,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_33344_y_13824.png,4.0,0,Sain (Normal),7,2,1,0.530634,0.0,0,Faux Positif
-73,1,19200,18848,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_19200_y_18848.png,3.0,1,Tumeur (Tumor),4,3,1,0.6139492,1.0,1,Correct
-86,4,39680,17792,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_39680_y_17792.png,4.0,0,Sain (Normal),9,3,1,0.5309836,0.0,0,Faux Positif
-68,1,4320,15424,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_4320_y_15424.png,3.0,0,Sain (Normal),0,2,1,0.50672334,0.0,0,Faux Positif
-96,0,35104,4384,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_35104_y_4384.png,4.0,1,Tumeur (Tumor),8,0,0,0.498497,1.0,0,Faux Négatif
-96,0,25280,12384,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_25280_y_12384.png,4.0,1,Tumeur (Tumor),5,2,0,0.48121807,1.0,0,Faux Négatif
-86,4,6528,21600,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_6528_y_21600.png,4.0,0,Sain (Normal),1,4,1,0.60840124,0.0,0,Faux Positif
-66,2,9152,35872,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_9152_y_35872.png,3.0,0,Sain (Normal),2,6,0,0.39915347,0.0,1,Correct
-86,4,14720,21184,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_14720_y_21184.png,4.0,0,Sain (Normal),3,4,1,0.7159441,0.0,0,Faux Positif
-81,4,3072,10848,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_3072_y_10848.png,4.0,0,Sain (Normal),0,2,1,0.5515622,0.0,0,Faux Positif
-96,0,21760,11136,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_21760_y_11136.png,4.0,1,Tumeur (Tumor),4,2,0,0.4968748,1.0,0,Faux Négatif
-67,4,8736,47488,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_8736_y_47488.png,3.0,0,Sain (Normal),1,9,0,0.43729302,0.0,1,Correct
-73,1,16128,19040,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_16128_y_19040.png,3.0,1,Tumeur (Tumor),3,3,1,0.55622256,1.0,1,Correct
-96,0,39968,9696,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_39968_y_9696.png,4.0,0,Sain (Normal),9,1,1,0.5156203,0.0,0,Faux Positif
-67,4,16928,44320,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_16928_y_44320.png,3.0,1,Tumeur (Tumor),3,8,0,0.39949718,1.0,0,Faux Négatif
-86,4,42976,15232,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_42976_y_15232.png,4.0,0,Sain (Normal),9,2,0,0.43116716,0.0,1,Correct
-60,3,20224,1376,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_20224_y_1376.png,3.0,0,Sain (Normal),4,0,0,0.09578176,0.0,1,Correct
-92,1,31328,4416,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_31328_y_4416.png,4.0,0,Sain (Normal),7,0,1,0.56540155,0.0,0,Faux Positif
-61,4,4320,31712,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_4320_y_31712.png,3.0,0,Sain (Normal),0,6,1,0.5180014,0.0,0,Faux Positif
-88,1,5408,18432,..\data\processed\patches_224x224\patient_088_node_1\patch_patient_088_node_1_x_5408_y_18432.png,4.0,0,Sain (Normal),1,3,1,0.6082458,0.0,0,Faux Positif
-88,1,10368,6080,..\data\processed\patches_224x224\patient_088_node_1\patch_patient_088_node_1_x_10368_y_6080.png,4.0,1,Tumeur (Tumor),2,1,1,0.5174583,1.0,1,Correct
-86,4,10848,21856,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_10848_y_21856.png,4.0,0,Sain (Normal),2,4,0,0.40352476,0.0,1,Correct
-81,4,3232,4736,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_3232_y_4736.png,4.0,1,Tumeur (Tumor),0,0,0,0.47667497,1.0,0,Faux Négatif
-96,0,33888,12320,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_33888_y_12320.png,4.0,1,Tumeur (Tumor),7,2,0,0.49539134,1.0,0,Faux Négatif
-86,0,24064,18464,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_24064_y_18464.png,4.0,1,Tumeur (Tumor),5,3,0,0.49288112,1.0,0,Faux Négatif
-86,4,8832,11488,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_8832_y_11488.png,4.0,0,Sain (Normal),1,2,1,0.6733461,0.0,0,Faux Positif
-87,0,27648,9408,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_27648_y_9408.png,4.0,0,Sain (Normal),6,1,1,0.5580931,0.0,0,Faux Positif
-81,4,24000,8576,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_24000_y_8576.png,4.0,0,Sain (Normal),5,1,1,0.54151416,0.0,0,Faux Positif
-80,1,19136,9664,..\data\processed\patches_224x224\patient_080_node_1\patch_patient_080_node_1_x_19136_y_9664.png,4.0,0,Sain (Normal),4,1,1,0.5242058,0.0,0,Faux Positif
-81,4,3904,12576,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_3904_y_12576.png,4.0,1,Tumeur (Tumor),0,2,1,0.5351363,1.0,1,Correct
-62,2,1600,23392,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_1600_y_23392.png,3.0,1,Tumeur (Tumor),0,4,0,0.41846117,1.0,0,Faux Négatif
-86,4,12576,19584,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_12576_y_19584.png,4.0,0,Sain (Normal),2,3,0,0.41408926,0.0,1,Correct
-73,1,4320,24320,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_4320_y_24320.png,3.0,0,Sain (Normal),0,4,1,0.51727635,0.0,0,Faux Positif
-86,0,23232,19904,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_23232_y_19904.png,4.0,0,Sain (Normal),5,3,1,0.5839337,0.0,0,Faux Positif
-96,0,26368,11168,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_26368_y_11168.png,4.0,1,Tumeur (Tumor),6,2,0,0.4830737,1.0,0,Faux Négatif
-75,4,8512,16160,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_8512_y_16160.png,3.0,0,Sain (Normal),1,3,1,0.56736046,0.0,0,Faux Positif
-92,1,32608,18016,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_32608_y_18016.png,4.0,1,Tumeur (Tumor),7,3,1,0.5723423,1.0,1,Correct
-81,4,3392,7904,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_3392_y_7904.png,4.0,0,Sain (Normal),0,1,1,0.63721126,0.0,0,Faux Positif
-75,4,22432,28640,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_22432_y_28640.png,3.0,0,Sain (Normal),5,5,0,0.06550066,0.0,1,Correct
-75,4,1696,20448,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_1696_y_20448.png,3.0,0,Sain (Normal),0,3,1,0.57467365,0.0,0,Faux Positif
-67,4,17184,35968,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_17184_y_35968.png,3.0,1,Tumeur (Tumor),3,6,0,0.4540483,1.0,0,Faux Négatif
-92,1,30560,3744,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_30560_y_3744.png,4.0,0,Sain (Normal),6,0,1,0.5870238,0.0,0,Faux Positif
-73,1,7296,39680,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_7296_y_39680.png,3.0,0,Sain (Normal),1,7,1,0.6215292,0.0,0,Faux Positif
-73,1,8288,43968,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_8288_y_43968.png,3.0,1,Tumeur (Tumor),1,8,1,0.5980893,1.0,1,Correct
-66,2,12128,42016,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_12128_y_42016.png,3.0,1,Tumeur (Tumor),2,8,1,0.55020857,1.0,1,Correct
-60,3,22080,22464,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_22080_y_22464.png,3.0,0,Sain (Normal),5,4,0,0.07404781,0.0,1,Correct
-99,4,9920,15008,..\data\processed\patches_224x224\patient_099_node_4\patch_patient_099_node_4_x_9920_y_15008.png,4.0,0,Sain (Normal),2,2,0,0.44388914,0.0,1,Correct
-67,4,18432,48576,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_18432_y_48576.png,3.0,0,Sain (Normal),4,9,0,0.36843318,0.0,1,Correct
-60,3,16416,1408,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_16416_y_1408.png,3.0,0,Sain (Normal),3,0,0,0.06064107,0.0,1,Correct
-62,2,17632,21056,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_17632_y_21056.png,3.0,1,Tumeur (Tumor),4,4,1,0.66053736,1.0,1,Correct
-68,1,17376,19360,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_17376_y_19360.png,3.0,0,Sain (Normal),3,3,0,0.36658385,0.0,1,Correct
-68,1,14304,10368,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_14304_y_10368.png,3.0,0,Sain (Normal),3,1,0,0.4843832,0.0,1,Correct
-89,3,34240,5376,..\data\processed\patches_224x224\patient_089_node_3\patch_patient_089_node_3_x_34240_y_5376.png,4.0,0,Sain (Normal),7,1,1,0.6401087,0.0,0,Faux Positif
-86,4,6624,22336,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_6624_y_22336.png,4.0,1,Tumeur (Tumor),1,4,1,0.5458425,1.0,1,Correct
-73,1,3616,42240,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_3616_y_42240.png,3.0,1,Tumeur (Tumor),0,8,1,0.61039764,1.0,1,Correct
-67,4,2368,37632,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_2368_y_37632.png,3.0,0,Sain (Normal),0,7,1,0.50097865,0.0,0,Faux Positif
-67,4,20640,37120,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_20640_y_37120.png,3.0,1,Tumeur (Tumor),4,7,0,0.3972619,1.0,0,Faux Négatif
-62,2,5472,31136,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_5472_y_31136.png,3.0,0,Sain (Normal),1,5,1,0.57846135,0.0,0,Faux Positif
-81,4,17280,4608,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_17280_y_4608.png,4.0,0,Sain (Normal),3,0,1,0.54802006,0.0,0,Faux Positif
-99,4,24864,12576,..\data\processed\patches_224x224\patient_099_node_4\patch_patient_099_node_4_x_24864_y_12576.png,4.0,0,Sain (Normal),5,2,0,0.44037795,0.0,1,Correct
-86,4,29792,17696,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_29792_y_17696.png,4.0,0,Sain (Normal),6,3,1,0.6351517,0.0,0,Faux Positif
-86,0,32544,23424,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_32544_y_23424.png,4.0,0,Sain (Normal),7,4,0,0.4063015,0.0,1,Correct
-60,3,6432,27136,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_6432_y_27136.png,3.0,1,Tumeur (Tumor),1,5,1,0.58491206,1.0,1,Correct
-99,4,20128,2176,..\data\processed\patches_224x224\patient_099_node_4\patch_patient_099_node_4_x_20128_y_2176.png,4.0,1,Tumeur (Tumor),4,0,1,0.5336956,1.0,1,Correct
-68,1,18112,15936,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_18112_y_15936.png,3.0,0,Sain (Normal),4,3,0,0.26418704,0.0,1,Correct
-75,4,11040,18432,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_11040_y_18432.png,3.0,0,Sain (Normal),2,3,1,0.534452,0.0,0,Faux Positif
-81,4,4256,4192,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_4256_y_4192.png,4.0,0,Sain (Normal),0,0,1,0.59531486,0.0,0,Faux Positif
-60,3,8768,1440,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_8768_y_1440.png,3.0,0,Sain (Normal),1,0,0,0.068540476,0.0,1,Correct
-87,0,41440,4928,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_41440_y_4928.png,4.0,0,Sain (Normal),9,0,1,0.5790037,0.0,0,Faux Positif
-96,0,23424,9792,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_23424_y_9792.png,4.0,1,Tumeur (Tumor),5,1,0,0.48731557,1.0,0,Faux Négatif
-62,2,19456,43200,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_19456_y_43200.png,3.0,0,Sain (Normal),4,8,1,0.5554414,0.0,0,Faux Positif
-92,1,31360,19168,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_31360_y_19168.png,4.0,0,Sain (Normal),7,3,0,0.42393428,0.0,1,Correct
-67,4,16512,49056,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_16512_y_49056.png,3.0,0,Sain (Normal),3,9,1,0.5603798,0.0,0,Faux Positif
-68,1,15520,24480,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_15520_y_24480.png,3.0,0,Sain (Normal),3,4,0,0.43677983,0.0,1,Correct
-67,4,13536,36032,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_13536_y_36032.png,3.0,0,Sain (Normal),3,6,0,0.38490736,0.0,1,Correct
-72,0,9024,45760,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_9024_y_45760.png,3.0,0,Sain (Normal),2,8,1,0.58893824,0.0,0,Faux Positif
-60,3,14720,27328,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_14720_y_27328.png,3.0,0,Sain (Normal),3,5,0,0.45180154,0.0,1,Correct
-72,0,18240,35648,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_18240_y_35648.png,3.0,1,Tumeur (Tumor),4,6,1,0.5474494,1.0,1,Correct
-81,4,19808,11808,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_19808_y_11808.png,4.0,0,Sain (Normal),4,2,1,0.50684696,0.0,0,Faux Positif
-81,4,16864,5440,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_16864_y_5440.png,4.0,1,Tumeur (Tumor),3,1,1,0.5399974,1.0,1,Correct
-87,0,10464,3872,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_10464_y_3872.png,4.0,0,Sain (Normal),2,0,0,0.42377743,0.0,1,Correct
-81,4,6784,1792,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_6784_y_1792.png,4.0,0,Sain (Normal),1,0,1,0.63195103,0.0,0,Faux Positif
-60,3,12576,416,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_12576_y_416.png,3.0,0,Sain (Normal),2,0,0,0.11467846,0.0,1,Correct
-86,4,17696,21120,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_17696_y_21120.png,4.0,0,Sain (Normal),4,4,1,0.67031,0.0,0,Faux Positif
-80,1,36992,15840,..\data\processed\patches_224x224\patient_080_node_1\patch_patient_080_node_1_x_36992_y_15840.png,4.0,0,Sain (Normal),8,3,1,0.5044907,0.0,0,Faux Positif
-81,4,5568,9344,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_5568_y_9344.png,4.0,0,Sain (Normal),1,1,1,0.5720958,0.0,0,Faux Positif
-72,0,10624,25952,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_10624_y_25952.png,3.0,0,Sain (Normal),2,4,0,0.37951857,0.0,1,Correct
-73,1,6016,22368,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_6016_y_22368.png,3.0,0,Sain (Normal),1,4,0,0.47071937,0.0,1,Correct
-61,4,4160,31360,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_4160_y_31360.png,3.0,0,Sain (Normal),0,5,1,0.5300408,0.0,0,Faux Positif
-68,1,12064,29888,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_12064_y_29888.png,3.0,0,Sain (Normal),2,5,0,0.4250654,0.0,1,Correct
-67,4,3904,29120,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_3904_y_29120.png,3.0,1,Tumeur (Tumor),0,5,1,0.51115,1.0,1,Correct
-73,1,6336,40736,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_6336_y_40736.png,3.0,1,Tumeur (Tumor),1,7,1,0.523133,1.0,1,Correct
-62,2,17184,21408,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_17184_y_21408.png,3.0,1,Tumeur (Tumor),3,4,1,0.56427,1.0,1,Correct
-96,0,32128,4448,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_32128_y_4448.png,4.0,1,Tumeur (Tumor),7,0,0,0.4928077,1.0,0,Faux Négatif
-68,1,14976,10624,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_14976_y_10624.png,3.0,0,Sain (Normal),3,2,0,0.35691303,0.0,1,Correct
-88,1,10976,8480,..\data\processed\patches_224x224\patient_088_node_1\patch_patient_088_node_1_x_10976_y_8480.png,4.0,0,Sain (Normal),2,1,1,0.51772416,0.0,0,Faux Positif
-86,0,26816,21152,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_26816_y_21152.png,4.0,0,Sain (Normal),6,4,0,0.42748934,0.0,1,Correct
-68,1,4768,12768,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_4768_y_12768.png,3.0,0,Sain (Normal),1,2,0,0.30979097,0.0,1,Correct
-96,0,21856,3232,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_21856_y_3232.png,4.0,0,Sain (Normal),4,0,1,0.5375747,0.0,0,Faux Positif
-73,1,23776,33760,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_23776_y_33760.png,3.0,0,Sain (Normal),5,6,0,0.124910645,0.0,1,Correct
-86,0,28672,11904,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_28672_y_11904.png,4.0,0,Sain (Normal),6,2,1,0.5414696,0.0,0,Faux Positif
-64,0,15648,39744,..\data\processed\patches_224x224\patient_064_node_0\patch_patient_064_node_0_x_15648_y_39744.png,3.0,1,Tumeur (Tumor),3,7,1,0.53408474,1.0,1,Correct
-66,2,6848,35232,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_6848_y_35232.png,3.0,0,Sain (Normal),1,6,1,0.5257514,0.0,0,Faux Positif
-73,1,20576,36960,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_20576_y_36960.png,3.0,0,Sain (Normal),4,7,1,0.53144795,0.0,0,Faux Positif
-96,0,21056,8384,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_21056_y_8384.png,4.0,1,Tumeur (Tumor),4,1,0,0.49326926,1.0,0,Faux Négatif
-87,0,38304,13216,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_38304_y_13216.png,4.0,0,Sain (Normal),8,2,1,0.62612486,0.0,0,Faux Positif
-92,1,832,21248,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_832_y_21248.png,4.0,0,Sain (Normal),0,4,0,0.39529765,0.0,1,Correct
-60,3,4032,896,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_4032_y_896.png,3.0,0,Sain (Normal),0,0,0,0.07529063,0.0,1,Correct
-75,4,13024,39872,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_13024_y_39872.png,3.0,1,Tumeur (Tumor),2,7,0,0.3891301,1.0,0,Faux Négatif
-80,1,4288,8032,..\data\processed\patches_224x224\patient_080_node_1\patch_patient_080_node_1_x_4288_y_8032.png,4.0,1,Tumeur (Tumor),0,1,1,0.5026181,1.0,1,Correct
-75,4,10496,15136,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_10496_y_15136.png,3.0,0,Sain (Normal),2,2,0,0.46841526,0.0,1,Correct
-96,0,27328,5088,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_27328_y_5088.png,4.0,1,Tumeur (Tumor),6,0,0,0.4599644,1.0,0,Faux Négatif
-73,1,14048,38528,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_14048_y_38528.png,3.0,0,Sain (Normal),3,7,1,0.6244731,0.0,0,Faux Positif
-96,0,26400,6464,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_26400_y_6464.png,4.0,1,Tumeur (Tumor),6,1,0,0.44491014,1.0,0,Faux Négatif
-89,3,36384,5664,..\data\processed\patches_224x224\patient_089_node_3\patch_patient_089_node_3_x_36384_y_5664.png,4.0,0,Sain (Normal),8,1,1,0.6181444,0.0,0,Faux Positif
-62,2,22368,41856,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_22368_y_41856.png,3.0,0,Sain (Normal),5,8,1,0.5038808,0.0,0,Faux Positif
-66,2,192,7648,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_192_y_7648.png,3.0,0,Sain (Normal),0,1,1,0.53888154,0.0,0,Faux Positif
-62,2,19744,31552,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_19744_y_31552.png,3.0,0,Sain (Normal),4,6,0,0.41248786,0.0,1,Correct
-66,2,22784,2336,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_22784_y_2336.png,3.0,0,Sain (Normal),5,0,0,0.1306883,0.0,1,Correct
-60,3,22816,18624,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_22816_y_18624.png,3.0,0,Sain (Normal),5,3,0,0.06930354,0.0,1,Correct
-73,1,9920,39104,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_9920_y_39104.png,3.0,0,Sain (Normal),2,7,0,0.44327426,0.0,1,Correct
-92,1,24640,4992,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_24640_y_4992.png,4.0,0,Sain (Normal),5,0,0,0.47835186,0.0,1,Correct
-75,4,2368,41024,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_2368_y_41024.png,3.0,1,Tumeur (Tumor),0,7,1,0.5584249,1.0,1,Correct
-96,0,32960,7744,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_32960_y_7744.png,4.0,1,Tumeur (Tumor),7,1,0,0.49479622,1.0,0,Faux Négatif
-86,0,14720,9376,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_14720_y_9376.png,4.0,0,Sain (Normal),3,1,0,0.44927534,0.0,1,Correct
-96,0,37760,11648,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_37760_y_11648.png,4.0,1,Tumeur (Tumor),8,2,1,0.53974795,1.0,1,Correct
-86,0,24032,21056,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_24032_y_21056.png,4.0,0,Sain (Normal),5,4,1,0.5922069,0.0,0,Faux Positif
-72,0,9792,47456,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_9792_y_47456.png,3.0,0,Sain (Normal),2,9,1,0.5193425,0.0,0,Faux Positif
-96,0,35648,9504,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_35648_y_9504.png,4.0,1,Tumeur (Tumor),8,1,0,0.47065857,1.0,0,Faux Négatif
-68,1,13152,10528,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_13152_y_10528.png,3.0,0,Sain (Normal),2,1,0,0.42680672,0.0,1,Correct
-72,0,15008,44352,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_15008_y_44352.png,3.0,0,Sain (Normal),3,8,1,0.5012931,0.0,0,Faux Positif
-80,1,19424,15808,..\data\processed\patches_224x224\patient_080_node_1\patch_patient_080_node_1_x_19424_y_15808.png,4.0,0,Sain (Normal),4,3,0,0.49396265,0.0,1,Correct
-61,4,5152,35040,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_5152_y_35040.png,3.0,1,Tumeur (Tumor),1,6,0,0.46986568,1.0,0,Faux Négatif
-86,4,3968,17408,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_3968_y_17408.png,4.0,0,Sain (Normal),0,3,0,0.44950637,0.0,1,Correct
-81,4,16864,5280,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_16864_y_5280.png,4.0,1,Tumeur (Tumor),3,0,1,0.57100546,1.0,1,Correct
-60,3,19680,24256,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_19680_y_24256.png,3.0,0,Sain (Normal),4,4,1,0.56281626,0.0,0,Faux Positif
-86,4,15424,18208,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_15424_y_18208.png,4.0,0,Sain (Normal),3,3,0,0.47809184,0.0,1,Correct
-96,0,35936,1536,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_35936_y_1536.png,4.0,0,Sain (Normal),8,0,0,0.43639952,0.0,1,Correct
-96,0,39456,7552,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_39456_y_7552.png,4.0,1,Tumeur (Tumor),9,1,1,0.52222914,1.0,1,Correct
-61,4,22208,50880,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_22208_y_50880.png,3.0,0,Sain (Normal),5,9,0,0.063530974,0.0,1,Correct
-96,0,25792,4064,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_25792_y_4064.png,4.0,1,Tumeur (Tumor),5,0,0,0.48847252,1.0,0,Faux Négatif
+87,0,13472,12384,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_13472_y_12384.png,4.0,0,Sain (Normal),3,2,1,0.5903301,0.0,0,Faux Positif
+62,2,22976,40192,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_22976_y_40192.png,3.0,0,Sain (Normal),5,7,0,0.49192765,0.0,1,Correct
+60,3,17792,30848,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_17792_y_30848.png,3.0,0,Sain (Normal),4,5,0,0.47264865,0.0,1,Correct
+72,0,7456,45696,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_7456_y_45696.png,3.0,0,Sain (Normal),1,8,0,0.48552197,0.0,1,Correct
+68,1,18912,15424,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_18912_y_15424.png,3.0,0,Sain (Normal),4,2,0,0.41690063,0.0,1,Correct
+61,4,2688,43200,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_2688_y_43200.png,3.0,0,Sain (Normal),0,8,0,0.41619766,0.0,1,Correct
+92,1,33344,13824,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_33344_y_13824.png,4.0,0,Sain (Normal),7,2,1,0.5435259,0.0,0,Faux Positif
+73,1,19200,18848,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_19200_y_18848.png,3.0,1,Tumeur (Tumor),4,3,1,0.55606353,1.0,1,Correct
+86,4,39680,17792,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_39680_y_17792.png,4.0,0,Sain (Normal),9,3,1,0.5185681,0.0,0,Faux Positif
+68,1,4320,15424,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_4320_y_15424.png,3.0,0,Sain (Normal),0,2,1,0.51700586,0.0,0,Faux Positif
+96,0,35104,4384,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_35104_y_4384.png,4.0,1,Tumeur (Tumor),8,0,0,0.4962318,1.0,0,Faux Négatif
+96,0,25280,12384,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_25280_y_12384.png,4.0,1,Tumeur (Tumor),5,2,0,0.47548705,1.0,0,Faux Négatif
+86,4,6528,21600,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_6528_y_21600.png,4.0,0,Sain (Normal),1,4,1,0.59838545,0.0,0,Faux Positif
+66,2,9152,35872,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_9152_y_35872.png,3.0,0,Sain (Normal),2,6,0,0.38851684,0.0,1,Correct
+86,4,14720,21184,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_14720_y_21184.png,4.0,0,Sain (Normal),3,4,1,0.61837876,0.0,0,Faux Positif
+81,4,3072,10848,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_3072_y_10848.png,4.0,0,Sain (Normal),0,2,1,0.5513061,0.0,0,Faux Positif
+96,0,21760,11136,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_21760_y_11136.png,4.0,1,Tumeur (Tumor),4,2,0,0.48273057,1.0,0,Faux Négatif
+67,4,8736,47488,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_8736_y_47488.png,3.0,0,Sain (Normal),1,9,0,0.42602476,0.0,1,Correct
+73,1,16128,19040,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_16128_y_19040.png,3.0,1,Tumeur (Tumor),3,3,1,0.5543611,1.0,1,Correct
+96,0,39968,9696,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_39968_y_9696.png,4.0,0,Sain (Normal),9,1,0,0.47776744,0.0,1,Correct
+67,4,16928,44320,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_16928_y_44320.png,3.0,1,Tumeur (Tumor),3,8,0,0.38285345,1.0,0,Faux Négatif
+86,4,42976,15232,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_42976_y_15232.png,4.0,0,Sain (Normal),9,2,0,0.44219163,0.0,1,Correct
+60,3,20224,1376,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_20224_y_1376.png,3.0,0,Sain (Normal),4,0,0,0.264953,0.0,1,Correct
+92,1,31328,4416,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_31328_y_4416.png,4.0,0,Sain (Normal),7,0,1,0.5260622,0.0,0,Faux Positif
+61,4,4320,31712,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_4320_y_31712.png,3.0,0,Sain (Normal),0,6,0,0.45803267,0.0,1,Correct
+88,1,5408,18432,..\data\processed\patches_224x224\patient_088_node_1\patch_patient_088_node_1_x_5408_y_18432.png,4.0,0,Sain (Normal),1,3,1,0.5530447,0.0,0,Faux Positif
+88,1,10368,6080,..\data\processed\patches_224x224\patient_088_node_1\patch_patient_088_node_1_x_10368_y_6080.png,4.0,1,Tumeur (Tumor),2,1,1,0.54212064,1.0,1,Correct
+86,4,10848,21856,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_10848_y_21856.png,4.0,0,Sain (Normal),2,4,0,0.44193375,0.0,1,Correct
+81,4,3232,4736,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_3232_y_4736.png,4.0,1,Tumeur (Tumor),0,0,1,0.539081,1.0,1,Correct
+96,0,33888,12320,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_33888_y_12320.png,4.0,1,Tumeur (Tumor),7,2,0,0.48821813,1.0,0,Faux Négatif
+86,0,24064,18464,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_24064_y_18464.png,4.0,1,Tumeur (Tumor),5,3,0,0.4832357,1.0,0,Faux Négatif
+86,4,8832,11488,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_8832_y_11488.png,4.0,0,Sain (Normal),1,2,1,0.6029739,0.0,0,Faux Positif
+87,0,27648,9408,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_27648_y_9408.png,4.0,0,Sain (Normal),6,1,1,0.53842396,0.0,0,Faux Positif
+81,4,24000,8576,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_24000_y_8576.png,4.0,0,Sain (Normal),5,1,0,0.488918,0.0,1,Correct
+80,1,19136,9664,..\data\processed\patches_224x224\patient_080_node_1\patch_patient_080_node_1_x_19136_y_9664.png,4.0,0,Sain (Normal),4,1,1,0.570574,0.0,0,Faux Positif
+81,4,3904,12576,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_3904_y_12576.png,4.0,1,Tumeur (Tumor),0,2,1,0.5219738,1.0,1,Correct
+62,2,1600,23392,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_1600_y_23392.png,3.0,1,Tumeur (Tumor),0,4,0,0.38857794,1.0,0,Faux Négatif
+86,4,12576,19584,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_12576_y_19584.png,4.0,0,Sain (Normal),2,3,0,0.42841324,0.0,1,Correct
+73,1,4320,24320,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_4320_y_24320.png,3.0,0,Sain (Normal),0,4,1,0.5361884,0.0,0,Faux Positif
+86,0,23232,19904,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_23232_y_19904.png,4.0,0,Sain (Normal),5,3,1,0.58810955,0.0,0,Faux Positif
+96,0,26368,11168,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_26368_y_11168.png,4.0,1,Tumeur (Tumor),6,2,0,0.44499058,1.0,0,Faux Négatif
+75,4,8512,16160,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_8512_y_16160.png,3.0,0,Sain (Normal),1,3,1,0.5495757,0.0,0,Faux Positif
+92,1,32608,18016,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_32608_y_18016.png,4.0,1,Tumeur (Tumor),7,3,1,0.56931955,1.0,1,Correct
+81,4,3392,7904,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_3392_y_7904.png,4.0,0,Sain (Normal),0,1,1,0.58541876,0.0,0,Faux Positif
+75,4,22432,28640,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_22432_y_28640.png,3.0,0,Sain (Normal),5,5,0,0.2323682,0.0,1,Correct
+75,4,1696,20448,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_1696_y_20448.png,3.0,0,Sain (Normal),0,3,1,0.5061201,0.0,0,Faux Positif
+67,4,17184,35968,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_17184_y_35968.png,3.0,1,Tumeur (Tumor),3,6,0,0.46674904,1.0,0,Faux Négatif
+92,1,30560,3744,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_30560_y_3744.png,4.0,0,Sain (Normal),6,0,1,0.55416065,0.0,0,Faux Positif
+73,1,7296,39680,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_7296_y_39680.png,3.0,0,Sain (Normal),1,7,1,0.56108034,0.0,0,Faux Positif
+73,1,8288,43968,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_8288_y_43968.png,3.0,1,Tumeur (Tumor),1,8,1,0.5666553,1.0,1,Correct
+66,2,12128,42016,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_12128_y_42016.png,3.0,1,Tumeur (Tumor),2,8,1,0.54519683,1.0,1,Correct
+60,3,22080,22464,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_22080_y_22464.png,3.0,0,Sain (Normal),5,4,0,0.27453324,0.0,1,Correct
+99,4,9920,15008,..\data\processed\patches_224x224\patient_099_node_4\patch_patient_099_node_4_x_9920_y_15008.png,4.0,0,Sain (Normal),2,2,0,0.49827838,0.0,1,Correct
+67,4,18432,48576,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_18432_y_48576.png,3.0,0,Sain (Normal),4,9,0,0.4253322,0.0,1,Correct
+60,3,16416,1408,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_16416_y_1408.png,3.0,0,Sain (Normal),3,0,0,0.2420946,0.0,1,Correct
+62,2,17632,21056,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_17632_y_21056.png,3.0,1,Tumeur (Tumor),4,4,1,0.58112866,1.0,1,Correct
+68,1,17376,19360,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_17376_y_19360.png,3.0,0,Sain (Normal),3,3,0,0.39236215,0.0,1,Correct
+68,1,14304,10368,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_14304_y_10368.png,3.0,0,Sain (Normal),3,1,0,0.47411647,0.0,1,Correct
+89,3,34240,5376,..\data\processed\patches_224x224\patient_089_node_3\patch_patient_089_node_3_x_34240_y_5376.png,4.0,0,Sain (Normal),7,1,1,0.5966252,0.0,0,Faux Positif
+86,4,6624,22336,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_6624_y_22336.png,4.0,1,Tumeur (Tumor),1,4,1,0.53456074,1.0,1,Correct
+73,1,3616,42240,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_3616_y_42240.png,3.0,1,Tumeur (Tumor),0,8,1,0.5799342,1.0,1,Correct
+67,4,2368,37632,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_2368_y_37632.png,3.0,0,Sain (Normal),0,7,0,0.47296888,0.0,1,Correct
+67,4,20640,37120,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_20640_y_37120.png,3.0,1,Tumeur (Tumor),4,7,0,0.35576907,1.0,0,Faux Négatif
+62,2,5472,31136,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_5472_y_31136.png,3.0,0,Sain (Normal),1,5,1,0.5128405,0.0,0,Faux Positif
+81,4,17280,4608,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_17280_y_4608.png,4.0,0,Sain (Normal),3,0,1,0.51707345,0.0,0,Faux Positif
+99,4,24864,12576,..\data\processed\patches_224x224\patient_099_node_4\patch_patient_099_node_4_x_24864_y_12576.png,4.0,0,Sain (Normal),5,2,1,0.5161573,0.0,0,Faux Positif
+86,4,29792,17696,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_29792_y_17696.png,4.0,0,Sain (Normal),6,3,1,0.5895762,0.0,0,Faux Positif
+86,0,32544,23424,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_32544_y_23424.png,4.0,0,Sain (Normal),7,4,0,0.42696276,0.0,1,Correct
+60,3,6432,27136,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_6432_y_27136.png,3.0,1,Tumeur (Tumor),1,5,1,0.5402756,1.0,1,Correct
+99,4,20128,2176,..\data\processed\patches_224x224\patient_099_node_4\patch_patient_099_node_4_x_20128_y_2176.png,4.0,1,Tumeur (Tumor),4,0,1,0.55972946,1.0,1,Correct
+68,1,18112,15936,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_18112_y_15936.png,3.0,0,Sain (Normal),4,3,0,0.39131752,0.0,1,Correct
+75,4,11040,18432,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_11040_y_18432.png,3.0,0,Sain (Normal),2,3,1,0.52346647,0.0,0,Faux Positif
+81,4,4256,4192,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_4256_y_4192.png,4.0,0,Sain (Normal),0,0,1,0.57283574,0.0,0,Faux Positif
+60,3,8768,1440,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_8768_y_1440.png,3.0,0,Sain (Normal),1,0,0,0.24157342,0.0,1,Correct
+87,0,41440,4928,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_41440_y_4928.png,4.0,0,Sain (Normal),9,0,1,0.5657,0.0,0,Faux Positif
+96,0,23424,9792,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_23424_y_9792.png,4.0,1,Tumeur (Tumor),5,1,0,0.48170426,1.0,0,Faux Négatif
+62,2,19456,43200,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_19456_y_43200.png,3.0,0,Sain (Normal),4,8,1,0.5017041,0.0,0,Faux Positif
+92,1,31360,19168,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_31360_y_19168.png,4.0,0,Sain (Normal),7,3,1,0.5723309,0.0,0,Faux Positif
+67,4,16512,49056,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_16512_y_49056.png,3.0,0,Sain (Normal),3,9,1,0.5106554,0.0,0,Faux Positif
+68,1,15520,24480,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_15520_y_24480.png,3.0,0,Sain (Normal),3,4,0,0.44324198,0.0,1,Correct
+67,4,13536,36032,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_13536_y_36032.png,3.0,0,Sain (Normal),3,6,0,0.42357448,0.0,1,Correct
+72,0,9024,45760,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_9024_y_45760.png,3.0,0,Sain (Normal),2,8,1,0.5180853,0.0,0,Faux Positif
+60,3,14720,27328,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_14720_y_27328.png,3.0,0,Sain (Normal),3,5,0,0.46870017,0.0,1,Correct
+72,0,18240,35648,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_18240_y_35648.png,3.0,1,Tumeur (Tumor),4,6,1,0.50994676,1.0,1,Correct
+81,4,19808,11808,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_19808_y_11808.png,4.0,0,Sain (Normal),4,2,0,0.48160264,0.0,1,Correct
+81,4,16864,5440,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_16864_y_5440.png,4.0,1,Tumeur (Tumor),3,1,1,0.5086204,1.0,1,Correct
+87,0,10464,3872,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_10464_y_3872.png,4.0,0,Sain (Normal),2,0,0,0.46241155,0.0,1,Correct
+81,4,6784,1792,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_6784_y_1792.png,4.0,0,Sain (Normal),1,0,1,0.5865675,0.0,0,Faux Positif
+60,3,12576,416,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_12576_y_416.png,3.0,0,Sain (Normal),2,0,0,0.26620987,0.0,1,Correct
+86,4,17696,21120,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_17696_y_21120.png,4.0,0,Sain (Normal),4,4,1,0.60586876,0.0,0,Faux Positif
+80,1,36992,15840,..\data\processed\patches_224x224\patient_080_node_1\patch_patient_080_node_1_x_36992_y_15840.png,4.0,0,Sain (Normal),8,3,0,0.49824893,0.0,1,Correct
+81,4,5568,9344,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_5568_y_9344.png,4.0,0,Sain (Normal),1,1,1,0.55065006,0.0,0,Faux Positif
+72,0,10624,25952,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_10624_y_25952.png,3.0,0,Sain (Normal),2,4,0,0.49172354,0.0,1,Correct
+73,1,6016,22368,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_6016_y_22368.png,3.0,0,Sain (Normal),1,4,0,0.47854027,0.0,1,Correct
+61,4,4160,31360,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_4160_y_31360.png,3.0,0,Sain (Normal),0,5,0,0.47981766,0.0,1,Correct
+68,1,12064,29888,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_12064_y_29888.png,3.0,0,Sain (Normal),2,5,0,0.46436444,0.0,1,Correct
+67,4,3904,29120,..\data\processed\patches_224x224\patient_067_node_4\patch_patient_067_node_4_x_3904_y_29120.png,3.0,1,Tumeur (Tumor),0,5,0,0.45091054,1.0,0,Faux Négatif
+73,1,6336,40736,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_6336_y_40736.png,3.0,1,Tumeur (Tumor),1,7,1,0.50460404,1.0,1,Correct
+62,2,17184,21408,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_17184_y_21408.png,3.0,1,Tumeur (Tumor),3,4,1,0.5593022,1.0,1,Correct
+96,0,32128,4448,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_32128_y_4448.png,4.0,1,Tumeur (Tumor),7,0,0,0.4896976,1.0,0,Faux Négatif
+68,1,14976,10624,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_14976_y_10624.png,3.0,0,Sain (Normal),3,2,0,0.41686642,0.0,1,Correct
+88,1,10976,8480,..\data\processed\patches_224x224\patient_088_node_1\patch_patient_088_node_1_x_10976_y_8480.png,4.0,0,Sain (Normal),2,1,0,0.47357526,0.0,1,Correct
+86,0,26816,21152,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_26816_y_21152.png,4.0,0,Sain (Normal),6,4,0,0.44109374,0.0,1,Correct
+68,1,4768,12768,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_4768_y_12768.png,3.0,0,Sain (Normal),1,2,0,0.4017018,0.0,1,Correct
+96,0,21856,3232,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_21856_y_3232.png,4.0,0,Sain (Normal),4,0,1,0.5150048,0.0,0,Faux Positif
+73,1,23776,33760,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_23776_y_33760.png,3.0,0,Sain (Normal),5,6,0,0.30317873,0.0,1,Correct
+86,0,28672,11904,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_28672_y_11904.png,4.0,0,Sain (Normal),6,2,1,0.53767884,0.0,0,Faux Positif
+64,0,15648,39744,..\data\processed\patches_224x224\patient_064_node_0\patch_patient_064_node_0_x_15648_y_39744.png,3.0,1,Tumeur (Tumor),3,7,0,0.49173445,1.0,0,Faux Négatif
+66,2,6848,35232,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_6848_y_35232.png,3.0,0,Sain (Normal),1,6,0,0.4822489,0.0,1,Correct
+73,1,20576,36960,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_20576_y_36960.png,3.0,0,Sain (Normal),4,7,1,0.5231107,0.0,0,Faux Positif
+96,0,21056,8384,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_21056_y_8384.png,4.0,1,Tumeur (Tumor),4,1,0,0.49040747,1.0,0,Faux Négatif
+87,0,38304,13216,..\data\processed\patches_224x224\patient_087_node_0\patch_patient_087_node_0_x_38304_y_13216.png,4.0,0,Sain (Normal),8,2,1,0.59481007,0.0,0,Faux Positif
+92,1,832,21248,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_832_y_21248.png,4.0,0,Sain (Normal),0,4,0,0.35029656,0.0,1,Correct
+60,3,4032,896,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_4032_y_896.png,3.0,0,Sain (Normal),0,0,0,0.22476904,0.0,1,Correct
+75,4,13024,39872,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_13024_y_39872.png,3.0,1,Tumeur (Tumor),2,7,0,0.36484423,1.0,0,Faux Négatif
+80,1,4288,8032,..\data\processed\patches_224x224\patient_080_node_1\patch_patient_080_node_1_x_4288_y_8032.png,4.0,1,Tumeur (Tumor),0,1,0,0.49593773,1.0,0,Faux Négatif
+75,4,10496,15136,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_10496_y_15136.png,3.0,0,Sain (Normal),2,2,0,0.47293282,0.0,1,Correct
+96,0,27328,5088,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_27328_y_5088.png,4.0,1,Tumeur (Tumor),6,0,0,0.45212486,1.0,0,Faux Négatif
+73,1,14048,38528,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_14048_y_38528.png,3.0,0,Sain (Normal),3,7,1,0.5478198,0.0,0,Faux Positif
+96,0,26400,6464,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_26400_y_6464.png,4.0,1,Tumeur (Tumor),6,1,0,0.46897423,1.0,0,Faux Négatif
+89,3,36384,5664,..\data\processed\patches_224x224\patient_089_node_3\patch_patient_089_node_3_x_36384_y_5664.png,4.0,0,Sain (Normal),8,1,1,0.5610647,0.0,0,Faux Positif
+62,2,22368,41856,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_22368_y_41856.png,3.0,0,Sain (Normal),5,8,0,0.47616467,0.0,1,Correct
+66,2,192,7648,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_192_y_7648.png,3.0,0,Sain (Normal),0,1,0,0.449499,0.0,1,Correct
+62,2,19744,31552,..\data\processed\patches_224x224\patient_062_node_2\patch_patient_062_node_2_x_19744_y_31552.png,3.0,0,Sain (Normal),4,6,0,0.37988344,0.0,1,Correct
+66,2,22784,2336,..\data\processed\patches_224x224\patient_066_node_2\patch_patient_066_node_2_x_22784_y_2336.png,3.0,0,Sain (Normal),5,0,0,0.2880125,0.0,1,Correct
+60,3,22816,18624,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_22816_y_18624.png,3.0,0,Sain (Normal),5,3,0,0.25412548,0.0,1,Correct
+73,1,9920,39104,..\data\processed\patches_224x224\patient_073_node_1\patch_patient_073_node_1_x_9920_y_39104.png,3.0,0,Sain (Normal),2,7,0,0.47044742,0.0,1,Correct
+92,1,24640,4992,..\data\processed\patches_224x224\patient_092_node_1\patch_patient_092_node_1_x_24640_y_4992.png,4.0,0,Sain (Normal),5,0,1,0.5044605,0.0,0,Faux Positif
+75,4,2368,41024,..\data\processed\patches_224x224\patient_075_node_4\patch_patient_075_node_4_x_2368_y_41024.png,3.0,1,Tumeur (Tumor),0,7,1,0.5511087,1.0,1,Correct
+96,0,32960,7744,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_32960_y_7744.png,4.0,1,Tumeur (Tumor),7,1,0,0.4834692,1.0,0,Faux Négatif
+86,0,14720,9376,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_14720_y_9376.png,4.0,0,Sain (Normal),3,1,0,0.48001578,0.0,1,Correct
+96,0,37760,11648,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_37760_y_11648.png,4.0,1,Tumeur (Tumor),8,2,1,0.52098256,1.0,1,Correct
+86,0,24032,21056,..\data\processed\patches_224x224\patient_086_node_0\patch_patient_086_node_0_x_24032_y_21056.png,4.0,0,Sain (Normal),5,4,1,0.57529426,0.0,0,Faux Positif
+72,0,9792,47456,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_9792_y_47456.png,3.0,0,Sain (Normal),2,9,0,0.49398232,0.0,1,Correct
+96,0,35648,9504,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_35648_y_9504.png,4.0,1,Tumeur (Tumor),8,1,0,0.4786768,1.0,0,Faux Négatif
+68,1,13152,10528,..\data\processed\patches_224x224\patient_068_node_1\patch_patient_068_node_1_x_13152_y_10528.png,3.0,0,Sain (Normal),2,1,1,0.52181524,0.0,0,Faux Positif
+72,0,15008,44352,..\data\processed\patches_224x224\patient_072_node_0\patch_patient_072_node_0_x_15008_y_44352.png,3.0,0,Sain (Normal),3,8,0,0.4776944,0.0,1,Correct
+80,1,19424,15808,..\data\processed\patches_224x224\patient_080_node_1\patch_patient_080_node_1_x_19424_y_15808.png,4.0,0,Sain (Normal),4,3,1,0.509502,0.0,0,Faux Positif
+61,4,5152,35040,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_5152_y_35040.png,3.0,1,Tumeur (Tumor),1,6,0,0.47113892,1.0,0,Faux Négatif
+86,4,3968,17408,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_3968_y_17408.png,4.0,0,Sain (Normal),0,3,1,0.50405395,0.0,0,Faux Positif
+81,4,16864,5280,..\data\processed\patches_224x224\patient_081_node_4\patch_patient_081_node_4_x_16864_y_5280.png,4.0,1,Tumeur (Tumor),3,0,1,0.5272016,1.0,1,Correct
+60,3,19680,24256,..\data\processed\patches_224x224\patient_060_node_3\patch_patient_060_node_3_x_19680_y_24256.png,3.0,0,Sain (Normal),4,4,1,0.5134374,0.0,0,Faux Positif
+86,4,15424,18208,..\data\processed\patches_224x224\patient_086_node_4\patch_patient_086_node_4_x_15424_y_18208.png,4.0,0,Sain (Normal),3,3,0,0.48165768,0.0,1,Correct
+96,0,35936,1536,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_35936_y_1536.png,4.0,0,Sain (Normal),8,0,0,0.45622227,0.0,1,Correct
+96,0,39456,7552,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_39456_y_7552.png,4.0,1,Tumeur (Tumor),9,1,1,0.5000037,1.0,1,Correct
+61,4,22208,50880,..\data\processed\patches_224x224\patient_061_node_4\patch_patient_061_node_4_x_22208_y_50880.png,3.0,0,Sain (Normal),5,9,0,0.21613897,0.0,1,Correct
+96,0,25792,4064,..\data\processed\patches_224x224\patient_096_node_0\patch_patient_096_node_0_x_25792_y_4064.png,4.0,1,Tumeur (Tumor),5,0,0,0.47937587,1.0,0,Faux Négatif
