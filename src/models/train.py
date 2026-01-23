@@ -29,7 +29,11 @@ class Trainer:
         running_loss = 0.0
         
         pbar = tqdm(self.train_loader, desc="Training")
-        for images, labels, _ in pbar: # On ignore les métadonnées ici
+        for batch in pbar:
+            if len(batch) == 3:
+                images, labels, _ = batch
+            else:
+                images, labels = batch
             images = images.to(self.device)
             labels = labels.float().to(self.device).view(-1, 1) # (Batch, 1)
             
@@ -58,7 +62,11 @@ class Trainer:
         all_probs = []
         
         with torch.no_grad():
-            for images, labels, _ in tqdm(self.val_loader, desc="Validation"):
+            for batch in tqdm(self.val_loader, desc="Validation"):
+                if len(batch) == 3:
+                    images, labels, _ = batch
+                else:
+                    images, labels = batch
                 images = images.to(self.device)
                 labels = labels.float().to(self.device).view(-1, 1)
                 

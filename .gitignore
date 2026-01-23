@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.zip
 .Python
 build/
 develop-eggs/
@@ -29,6 +30,7 @@ share/python-wheels/
 MANIFEST
 
 # Virtual Environment
+.venv
 venv/
 env/
 ENV/
@@ -58,6 +60,7 @@ models/checkpoints/*
 models/final/*.pth
 models/final/*.h5
 models/final/*.pkl
+models/baseline_v1/
 !models/checkpoints/.gitkeep
 !models/final/.gitkeep
 

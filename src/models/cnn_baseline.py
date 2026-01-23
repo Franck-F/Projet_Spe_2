@@ -27,7 +27,10 @@ class SimpleCNN(nn.Module):
         self.pool3 = nn.MaxPool2d(2, 2) # -> 12x12
         
         # Classification
-        self.flatten_dim = 128 * 12 * 12
+        # Pour une entree 224x224 : 224 -> 112 -> 56 -> 28
+        # Pour une entree 96x96   : 96 -> 48 -> 24 -> 12
+        # On peut rendre ca dynamique ou juste supporter 224x224 comme demande
+        self.flatten_dim = 128 * 28 * 28 # Adaptation pour 224x224
         self.fc1 = nn.Linear(self.flatten_dim, 256)
         self.dropout = nn.Dropout(0.5)
         self.fc2 = nn.Linear(256, 1)
