@@ -1,0 +1,380 @@
+patient,node,x_coord,y_coord,path_normalized,center,tumor,pred,prob,label,correct,error_type
+68,1,4352,12864,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_4352_y_12864.png,3,0,0,0.13292357,0.0,1,Correct
+75,4,2816,14592,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_2816_y_14592.png,3,0,0,0.124066964,0.0,1,Correct
+68,1,4352,13792,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_4352_y_13792.png,3,0,0,0.18761413,0.0,1,Correct
+62,2,3392,18944,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_3392_y_18944.png,3,0,0,0.23489842,0.0,1,Correct
+68,1,4256,15072,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_4256_y_15072.png,3,0,0,0.35169056,0.0,1,Correct
+73,1,3648,18496,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_3648_y_18496.png,3,0,0,0.048160285,0.0,1,Correct
+75,4,1568,24384,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_1568_y_24384.png,3,0,1,0.62278205,0.0,0,Faux Positif
+73,1,4192,22400,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_4192_y_22400.png,3,0,0,0.27222988,0.0,1,Correct
+62,2,4192,19968,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_4192_y_19968.png,3,0,0,0.13895305,0.0,1,Correct
+73,1,672,28800,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_672_y_28800.png,3,0,0,0.13896503,0.0,1,Correct
+75,4,3424,24928,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_3424_y_24928.png,3,0,0,0.08709749,0.0,1,Correct
+62,2,1184,24992,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_1184_y_24992.png,3,0,0,0.15206443,0.0,1,Correct
+60,3,4416,31904,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_4416_y_31904.png,3,0,0,0.25399637,0.0,1,Correct
+61,4,4096,34016,..\data\processed\patches_224x224_normalized_sample\patient_061_node_4\patch_patient_061_node_4_x_4096_y_34016.png,3,0,1,0.7293841,0.0,0,Faux Positif
+66,2,4160,32352,..\data\processed\patches_224x224_normalized_sample\patient_066_node_2\patch_patient_066_node_2_x_4160_y_32352.png,3,0,1,0.6734578,0.0,0,Faux Positif
+67,4,4288,35328,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_4288_y_35328.png,3,0,0,0.08157842,0.0,1,Correct
+75,4,1280,37472,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_1280_y_37472.png,3,0,0,0.22451635,0.0,1,Correct
+62,2,1856,36704,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_1856_y_36704.png,3,0,0,0.14746629,0.0,1,Correct
+61,4,3872,41472,..\data\processed\patches_224x224_normalized_sample\patient_061_node_4\patch_patient_061_node_4_x_3872_y_41472.png,3,0,0,0.14880423,0.0,1,Correct
+73,1,3488,43904,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_3488_y_43904.png,3,0,0,0.21390103,0.0,1,Correct
+61,4,2336,42176,..\data\processed\patches_224x224_normalized_sample\patient_061_node_4\patch_patient_061_node_4_x_2336_y_42176.png,3,0,0,0.1661866,0.0,1,Correct
+73,1,2496,45408,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_2496_y_45408.png,3,0,1,0.6181635,0.0,0,Faux Positif
+73,1,3680,45152,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_3680_y_45152.png,3,0,0,0.26401603,0.0,1,Correct
+73,1,3232,45664,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_3232_y_45664.png,3,0,0,0.05548657,0.0,1,Correct
+68,1,5280,14272,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_5280_y_14272.png,3,0,0,0.24530865,0.0,1,Correct
+75,4,7552,14752,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_7552_y_14752.png,3,0,0,0.15304117,0.0,1,Correct
+75,4,8480,12384,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_8480_y_12384.png,3,0,0,0.18431196,0.0,1,Correct
+68,1,5792,17856,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_5792_y_17856.png,3,0,0,0.2558551,0.0,1,Correct
+62,2,4768,19424,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_4768_y_19424.png,3,0,0,0.25935534,0.0,1,Correct
+73,1,7584,17344,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_7584_y_17344.png,3,0,1,0.5092895,0.0,0,Faux Positif
+73,1,7616,20320,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_7616_y_20320.png,3,0,0,0.17561997,0.0,1,Correct
+62,2,5600,22784,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_5600_y_22784.png,3,0,0,0.18119073,0.0,1,Correct
+68,1,8416,21728,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_8416_y_21728.png,3,0,0,0.19082262,0.0,1,Correct
+66,2,7584,28064,..\data\processed\patches_224x224_normalized_sample\patient_066_node_2\patch_patient_066_node_2_x_7584_y_28064.png,3,0,0,0.25968313,0.0,1,Correct
+68,1,6720,28512,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_6720_y_28512.png,3,0,0,0.22547601,0.0,1,Correct
+66,2,4640,27040,..\data\processed\patches_224x224_normalized_sample\patient_066_node_2\patch_patient_066_node_2_x_4640_y_27040.png,3,0,0,0.22988352,0.0,1,Correct
+60,3,7136,33440,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_7136_y_33440.png,3,0,0,0.17303403,0.0,1,Correct
+61,4,4864,34368,..\data\processed\patches_224x224_normalized_sample\patient_061_node_4\patch_patient_061_node_4_x_4864_y_34368.png,3,0,0,0.28421843,0.0,1,Correct
+67,4,8736,30656,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_8736_y_30656.png,3,0,0,0.2004748,0.0,1,Correct
+61,4,6912,36928,..\data\processed\patches_224x224_normalized_sample\patient_061_node_4\patch_patient_061_node_4_x_6912_y_36928.png,3,0,0,0.1710494,0.0,1,Correct
+62,2,4896,34912,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_4896_y_34912.png,3,0,0,0.2695669,0.0,1,Correct
+60,3,5280,38912,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_5280_y_38912.png,3,0,0,0.20984843,0.0,1,Correct
+61,4,6720,42240,..\data\processed\patches_224x224_normalized_sample\patient_061_node_4\patch_patient_061_node_4_x_6720_y_42240.png,3,0,0,0.41783628,0.0,1,Correct
+67,4,7776,40640,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_7776_y_40640.png,3,0,0,0.1957424,0.0,1,Correct
+61,4,4608,40768,..\data\processed\patches_224x224_normalized_sample\patient_061_node_4\patch_patient_061_node_4_x_4608_y_40768.png,3,0,0,0.37961063,0.0,1,Correct
+73,1,5568,44928,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_5568_y_44928.png,3,0,0,0.15497987,0.0,1,Correct
+67,4,8448,46944,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_8448_y_46944.png,3,0,0,0.15233302,0.0,1,Correct
+73,1,4896,45568,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_4896_y_45568.png,3,0,0,0.1422623,0.0,1,Correct
+68,1,9056,11520,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_9056_y_11520.png,3,0,0,0.20923944,0.0,1,Correct
+68,1,8800,11808,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_8800_y_11808.png,3,0,0,0.23755988,0.0,1,Correct
+68,1,12832,12096,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_12832_y_12096.png,3,0,0,0.20092481,0.0,1,Correct
+73,1,10720,18464,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_10720_y_18464.png,3,0,0,0.13434677,0.0,1,Correct
+62,2,8960,15328,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_8960_y_15328.png,3,0,1,0.7000285,0.0,0,Faux Positif
+75,4,10176,16352,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_10176_y_16352.png,3,0,0,0.27275628,0.0,1,Correct
+68,1,10880,20480,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_10880_y_20480.png,3,0,0,0.4612138,0.0,1,Correct
+72,0,9568,23008,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_9568_y_23008.png,3,0,0,0.1320916,0.0,1,Correct
+72,0,10432,20736,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_10432_y_20736.png,3,0,0,0.14741176,0.0,1,Correct
+68,1,11648,29184,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_11648_y_29184.png,3,0,0,0.21320108,0.0,1,Correct
+67,4,9664,29664,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_9664_y_29664.png,3,0,0,0.18431075,0.0,1,Correct
+68,1,12928,26752,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_12928_y_26752.png,3,0,0,0.08612515,0.0,1,Correct
+73,1,12640,33472,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_12640_y_33472.png,3,0,0,0.18048924,0.0,1,Correct
+60,3,9024,32608,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_9024_y_32608.png,3,0,1,0.7317566,0.0,0,Faux Positif
+68,1,11456,30208,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_11456_y_30208.png,3,0,0,0.20044291,0.0,1,Correct
+73,1,11744,38112,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_11744_y_38112.png,3,0,0,0.1625711,0.0,1,Correct
+72,0,10304,39200,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_10304_y_39200.png,3,0,0,0.17625085,0.0,1,Correct
+73,1,12480,36832,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_12480_y_36832.png,3,0,0,0.1877283,0.0,1,Correct
+66,2,10464,39744,..\data\processed\patches_224x224_normalized_sample\patient_066_node_2\patch_patient_066_node_2_x_10464_y_39744.png,3,0,0,0.15916626,0.0,1,Correct
+64,0,10048,40704,..\data\processed\patches_224x224_normalized_sample\patient_064_node_0\patch_patient_064_node_0_x_10048_y_40704.png,3,0,0,0.1408754,0.0,1,Correct
+72,0,10720,43872,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_10720_y_43872.png,3,0,0,0.15400696,0.0,1,Correct
+72,0,10464,45856,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_10464_y_45856.png,3,0,0,0.1725932,0.0,1,Correct
+72,0,10016,46976,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_10016_y_46976.png,3,0,0,0.25657743,0.0,1,Correct
+67,4,9984,44800,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_9984_y_44800.png,3,0,0,0.21430959,0.0,1,Correct
+60,3,13344,640,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_13344_y_640.png,3,0,0,0.29198396,0.0,1,Correct
+62,2,13600,14976,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_13600_y_14976.png,3,0,0,0.19081406,0.0,1,Correct
+68,1,13088,11840,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_13088_y_11840.png,3,0,0,0.23042859,0.0,1,Correct
+68,1,13888,11392,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_13888_y_11392.png,3,0,0,0.2679829,0.0,1,Correct
+62,2,14592,15872,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_14592_y_15872.png,3,0,0,0.23544976,0.0,1,Correct
+68,1,17312,16800,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_17312_y_16800.png,3,0,0,0.46416613,0.0,1,Correct
+68,1,17280,18144,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_17280_y_18144.png,3,0,0,0.18269949,0.0,1,Correct
+60,3,15808,23904,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_15808_y_23904.png,3,0,0,0.21079534,0.0,1,Correct
+60,3,16640,24704,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_16640_y_24704.png,3,0,0,0.13445552,0.0,1,Correct
+68,1,16288,24128,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_16288_y_24128.png,3,0,0,0.28740734,0.0,1,Correct
+72,0,13248,27488,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_13248_y_27488.png,3,0,0,0.13410474,0.0,1,Correct
+60,3,15328,29408,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_15328_y_29408.png,3,0,0,0.13494864,0.0,1,Correct
+60,3,15008,24896,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_15008_y_24896.png,3,0,0,0.057781138,0.0,1,Correct
+72,0,15008,32192,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_15008_y_32192.png,3,0,0,0.118680336,0.0,1,Correct
+72,0,13248,32800,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_13248_y_32800.png,3,0,0,0.066748194,0.0,1,Correct
+68,1,16576,32064,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_16576_y_32064.png,3,0,0,0.20079973,0.0,1,Correct
+67,4,13664,36832,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_13664_y_36832.png,3,0,1,0.5449888,0.0,0,Faux Positif
+73,1,16032,36000,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_16032_y_36000.png,3,0,0,0.14212458,0.0,1,Correct
+72,0,13088,36864,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_13088_y_36864.png,3,0,0,0.4280913,0.0,1,Correct
+64,0,16864,42976,..\data\processed\patches_224x224_normalized_sample\patient_064_node_0\patch_patient_064_node_0_x_16864_y_42976.png,3,0,0,0.28739268,0.0,1,Correct
+60,3,14464,40256,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_14464_y_40256.png,3,0,0,0.25189835,0.0,1,Correct
+60,3,17152,39936,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_17152_y_39936.png,3,0,0,0.19608393,0.0,1,Correct
+72,0,13376,44544,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_13376_y_44544.png,3,0,0,0.45630643,0.0,1,Correct
+67,4,15840,49152,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_15840_y_49152.png,3,0,0,0.18388109,0.0,1,Correct
+60,3,15968,44928,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_15968_y_44928.png,3,0,0,0.09251391,0.0,1,Correct
+66,2,20352,2336,..\data\processed\patches_224x224_normalized_sample\patient_066_node_2\patch_patient_066_node_2_x_20352_y_2336.png,3,0,0,0.1630407,0.0,1,Correct
+68,1,18944,14528,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_18944_y_14528.png,3,0,0,0.37468106,0.0,1,Correct
+68,1,17920,11584,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_17920_y_11584.png,3,0,0,0.03891514,0.0,1,Correct
+68,1,19264,13152,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_19264_y_13152.png,3,0,0,0.21802011,0.0,1,Correct
+73,1,20960,18240,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_20960_y_18240.png,3,0,0,0.2666495,0.0,1,Correct
+73,1,20800,18240,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_20800_y_18240.png,3,0,0,0.16110517,0.0,1,Correct
+75,4,18496,19424,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_18496_y_19424.png,3,0,0,0.16085003,0.0,1,Correct
+73,1,18304,21632,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_18304_y_21632.png,3,0,0,0.19885014,0.0,1,Correct
+60,3,19040,24064,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_19040_y_24064.png,3,0,0,0.2085366,0.0,1,Correct
+73,1,18656,20416,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_18656_y_20416.png,3,0,0,0.040449545,0.0,1,Correct
+60,3,19776,26016,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_19776_y_26016.png,3,0,0,0.20635642,0.0,1,Correct
+68,1,18272,28640,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_18272_y_28640.png,3,0,0,0.39027435,0.0,1,Correct
+68,1,18848,25920,..\data\processed\patches_224x224_normalized_sample\patient_068_node_1\patch_patient_068_node_1_x_18848_y_25920.png,3,0,0,0.19018789,0.0,1,Correct
+73,1,21024,33344,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_21024_y_33344.png,3,0,0,0.28096896,0.0,1,Correct
+72,0,18784,34624,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_18784_y_34624.png,3,0,0,0.04414612,0.0,1,Correct
+72,0,18816,32032,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_18816_y_32032.png,3,0,1,0.51201195,0.0,0,Faux Positif
+64,0,18144,35552,..\data\processed\patches_224x224_normalized_sample\patient_064_node_0\patch_patient_064_node_0_x_18144_y_35552.png,3,0,0,0.19996262,0.0,1,Correct
+60,3,19616,35328,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_19616_y_35328.png,3,0,0,0.09975372,0.0,1,Correct
+67,4,19744,37920,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_19744_y_37920.png,3,0,0,0.21891376,0.0,1,Correct
+60,3,17568,44032,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_17568_y_44032.png,3,0,0,0.21785428,0.0,1,Correct
+64,0,17696,43104,..\data\processed\patches_224x224_normalized_sample\patient_064_node_0\patch_patient_064_node_0_x_17696_y_43104.png,3,0,0,0.13783717,0.0,1,Correct
+60,3,18944,42016,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_18944_y_42016.png,3,0,0,0.268851,0.0,1,Correct
+67,4,18688,48736,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_18688_y_48736.png,3,0,0,0.17254111,0.0,1,Correct
+67,4,19488,48064,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_19488_y_48064.png,3,0,0,0.19528161,0.0,1,Correct
+67,4,17664,44672,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_17664_y_44672.png,3,0,0,0.06582983,0.0,1,Correct
+73,1,22464,33888,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_22464_y_33888.png,3,0,0,0.25398698,0.0,1,Correct
+75,4,21856,30880,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_21856_y_30880.png,3,0,0,0.24244972,0.0,1,Correct
+73,1,22368,33760,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_22368_y_33760.png,3,0,0,0.19288088,0.0,1,Correct
+60,3,21728,37792,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_21728_y_37792.png,3,0,0,0.38036025,0.0,1,Correct
+62,2,21792,39488,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_21792_y_39488.png,3,0,0,0.176093,0.0,1,Correct
+73,1,21888,36736,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_21888_y_36736.png,3,0,0,0.124834396,0.0,1,Correct
+62,2,21696,40768,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_21696_y_40768.png,3,0,0,0.10705737,0.0,1,Correct
+62,2,21984,40000,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_21984_y_40000.png,3,0,0,0.355158,0.0,1,Correct
+62,2,22080,40928,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_22080_y_40928.png,3,0,0,0.1837264,0.0,1,Correct
+66,2,23040,46176,..\data\processed\patches_224x224_normalized_sample\patient_066_node_2\patch_patient_066_node_2_x_23040_y_46176.png,3,0,0,0.26385614,0.0,1,Correct
+67,4,3520,29504,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_3520_y_29504.png,3,1,0,0.06799928,1.0,0,Faux Négatif
+67,4,4000,29120,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_4000_y_29120.png,3,1,0,0.20950992,1.0,0,Faux Négatif
+67,4,4192,28960,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_4192_y_28960.png,3,1,1,0.5325196,1.0,1,Correct
+73,1,3584,39168,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_3584_y_39168.png,3,1,1,0.95893925,1.0,1,Correct
+75,4,2112,38176,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_2112_y_38176.png,3,1,1,0.9787401,1.0,1,Correct
+75,4,3168,38656,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_3168_y_38656.png,3,1,0,0.39558357,1.0,0,Faux Négatif
+73,1,3040,42720,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_3040_y_42720.png,3,1,1,0.9798078,1.0,1,Correct
+73,1,3872,42880,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_3872_y_42880.png,3,1,1,0.91790015,1.0,1,Correct
+73,1,4320,43200,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_4320_y_43200.png,3,1,1,0.8891989,1.0,1,Correct
+60,3,6432,27072,..\data\processed\patches_224x224_normalized_sample\patient_060_node_3\patch_patient_060_node_3_x_6432_y_27072.png,3,1,1,0.80693465,1.0,1,Correct
+73,1,5152,38464,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_5152_y_38464.png,3,1,1,0.7447887,1.0,1,Correct
+61,4,5120,34784,..\data\processed\patches_224x224_normalized_sample\patient_061_node_4\patch_patient_061_node_4_x_5120_y_34784.png,3,1,1,0.97230524,1.0,1,Correct
+73,1,4960,38528,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_4960_y_38528.png,3,1,1,0.54006076,1.0,1,Correct
+73,1,7616,41920,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_7616_y_41920.png,3,1,1,0.922699,1.0,1,Correct
+73,1,6208,43648,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_6208_y_43648.png,3,1,1,0.96575433,1.0,1,Correct
+73,1,8288,41024,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_8288_y_41024.png,3,1,1,0.9589964,1.0,1,Correct
+73,1,7296,44512,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_7296_y_44512.png,3,1,1,0.57739943,1.0,1,Correct
+75,4,10400,39232,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_10400_y_39232.png,3,1,0,0.044034783,1.0,0,Faux Négatif
+75,4,9440,39872,..\data\processed\patches_224x224_normalized_sample\patient_075_node_4\patch_patient_075_node_4_x_9440_y_39872.png,3,1,0,0.39944065,1.0,0,Faux Négatif
+66,2,11456,41568,..\data\processed\patches_224x224_normalized_sample\patient_066_node_2\patch_patient_066_node_2_x_11456_y_41568.png,3,1,1,0.81718194,1.0,1,Correct
+73,1,9216,41760,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_9216_y_41760.png,3,1,1,0.884278,1.0,1,Correct
+73,1,16992,19744,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_16992_y_19744.png,3,1,1,0.9794612,1.0,1,Correct
+73,1,14560,19232,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_14560_y_19232.png,3,1,1,0.8995342,1.0,1,Correct
+73,1,16064,19712,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_16064_y_19712.png,3,1,1,0.98569804,1.0,1,Correct
+62,2,17248,21600,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_17248_y_21600.png,3,1,1,0.99110246,1.0,1,Correct
+73,1,14144,20480,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_14144_y_20480.png,3,1,0,0.091005966,1.0,0,Faux Négatif
+73,1,16800,20000,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_16800_y_20000.png,3,1,1,0.97398245,1.0,1,Correct
+72,0,14560,26080,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_14560_y_26080.png,3,1,1,0.698308,1.0,1,Correct
+72,0,14144,25568,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_14144_y_25568.png,3,1,0,0.24059273,1.0,0,Faux Négatif
+67,4,17120,33952,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_17120_y_33952.png,3,1,0,0.09121429,1.0,0,Faux Négatif
+67,4,17312,35872,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_17312_y_35872.png,3,1,0,0.06317143,1.0,0,Faux Négatif
+67,4,17184,35936,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_17184_y_35936.png,3,1,1,0.596191,1.0,1,Correct
+67,4,13344,45696,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_13344_y_45696.png,3,1,0,0.019075925,1.0,0,Faux Négatif
+67,4,13152,45568,..\data\processed\patches_224x224_normalized_sample\patient_067_node_4\patch_patient_067_node_4_x_13152_y_45568.png,3,1,0,0.1807849,1.0,0,Faux Négatif
+73,1,18144,17696,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_18144_y_17696.png,3,1,1,0.98021126,1.0,1,Correct
+73,1,20032,18304,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_20032_y_18304.png,3,1,1,0.96220213,1.0,1,Correct
+73,1,17824,16736,..\data\processed\patches_224x224_normalized_sample\patient_073_node_1\patch_patient_073_node_1_x_17824_y_16736.png,3,1,1,0.82290304,1.0,1,Correct
+62,2,17632,20992,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_17632_y_20992.png,3,1,1,0.96327955,1.0,1,Correct
+62,2,18240,20416,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_18240_y_20416.png,3,1,1,0.98360854,1.0,1,Correct
+62,2,17984,21344,..\data\processed\patches_224x224_normalized_sample\patient_062_node_2\patch_patient_062_node_2_x_17984_y_21344.png,3,1,1,0.5260945,1.0,1,Correct
+72,0,18208,35552,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_18208_y_35552.png,3,1,0,0.33660567,1.0,0,Faux Négatif
+72,0,18080,35744,..\data\processed\patches_224x224_normalized_sample\patient_072_node_0\patch_patient_072_node_0_x_18080_y_35744.png,3,1,1,0.89987665,1.0,1,Correct
+88,1,2432,2048,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_2432_y_2048.png,4,0,0,0.13056754,0.0,1,Correct
+81,4,3616,4672,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_3616_y_4672.png,4,0,0,0.22447383,0.0,1,Correct
+88,1,1184,4608,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_1184_y_4608.png,4,0,0,0.15316156,0.0,1,Correct
+81,4,3008,7584,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_3008_y_7584.png,4,0,0,0.25146133,0.0,1,Correct
+80,1,2528,6336,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_2528_y_6336.png,4,0,0,0.13043973,0.0,1,Correct
+86,4,3168,9920,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_3168_y_9920.png,4,0,0,0.14391732,0.0,1,Correct
+87,0,4256,10656,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_4256_y_10656.png,4,0,0,0.2039087,0.0,1,Correct
+88,1,4256,13120,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_4256_y_13120.png,4,0,0,0.06855466,0.0,1,Correct
+80,1,3584,10176,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_3584_y_10176.png,4,0,0,0.06447758,0.0,1,Correct
+99,4,3744,17280,..\data\processed\patches_224x224_normalized_sample\patient_099_node_4\patch_patient_099_node_4_x_3744_y_17280.png,4,0,0,0.06723821,0.0,1,Correct
+88,1,3168,17632,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_3168_y_17632.png,4,0,0,0.11451962,0.0,1,Correct
+88,1,2752,17632,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_2752_y_17632.png,4,0,0,0.07219489,0.0,1,Correct
+86,4,4448,20288,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_4448_y_20288.png,4,0,0,0.19048549,0.0,1,Correct
+81,4,4544,4576,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_4544_y_4576.png,4,0,0,0.12354142,0.0,1,Correct
+81,4,5280,4576,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_5280_y_4576.png,4,0,0,0.124718346,0.0,1,Correct
+81,4,7616,4800,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_7616_y_4800.png,4,0,0,0.21944252,0.0,1,Correct
+86,4,6400,9440,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_6400_y_9440.png,4,0,0,0.34189847,0.0,1,Correct
+81,4,4768,9664,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_4768_y_9664.png,4,0,0,0.21196778,0.0,1,Correct
+87,0,7648,9504,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_7648_y_9504.png,4,0,0,0.13709626,0.0,1,Correct
+86,4,7328,10144,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_7328_y_10144.png,4,0,0,0.25827637,0.0,1,Correct
+80,1,6432,11296,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_6432_y_11296.png,4,0,0,0.19547574,0.0,1,Correct
+80,1,5664,10592,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_5664_y_10592.png,4,0,0,0.16236205,0.0,1,Correct
+86,0,6400,16544,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_6400_y_16544.png,4,0,0,0.09798583,0.0,1,Correct
+80,1,4672,18304,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_4672_y_18304.png,4,0,0,0.08414905,0.0,1,Correct
+88,1,5312,18432,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_5312_y_18432.png,4,0,0,0.14707153,0.0,1,Correct
+86,4,7584,21152,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_7584_y_21152.png,4,0,0,0.1564658,0.0,1,Correct
+86,4,6624,21120,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_6624_y_21120.png,4,0,0,0.14491451,0.0,1,Correct
+86,4,7168,20064,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_7168_y_20064.png,4,0,0,0.12557875,0.0,1,Correct
+81,4,8896,4096,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_8896_y_4096.png,4,0,0,0.11976333,0.0,1,Correct
+81,4,9024,4800,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_9024_y_4800.png,4,0,0,0.18998417,0.0,1,Correct
+86,4,13056,3104,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_13056_y_3104.png,4,0,0,0.17579396,0.0,1,Correct
+88,1,11360,8480,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_11360_y_8480.png,4,0,0,0.14538911,0.0,1,Correct
+81,4,11680,7520,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_11680_y_7520.png,4,0,0,0.07945957,0.0,1,Correct
+81,4,10272,6848,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_10272_y_6848.png,4,0,0,0.10653933,0.0,1,Correct
+86,0,9088,10528,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_9088_y_10528.png,4,0,0,0.16074957,0.0,1,Correct
+88,1,11392,11776,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_11392_y_11776.png,4,0,0,0.42926407,0.0,1,Correct
+88,1,11168,11392,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_11168_y_11392.png,4,0,0,0.17252469,0.0,1,Correct
+86,4,10080,18784,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_10080_y_18784.png,4,0,0,0.13520011,0.0,1,Correct
+99,4,12928,16096,..\data\processed\patches_224x224_normalized_sample\patient_099_node_4\patch_patient_099_node_4_x_12928_y_16096.png,4,0,0,0.08021958,0.0,1,Correct
+86,0,9536,16320,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_9536_y_16320.png,4,0,0,0.20894499,0.0,1,Correct
+81,4,9952,20992,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_9952_y_20992.png,4,0,0,0.031060217,0.0,1,Correct
+81,4,17056,3744,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_17056_y_3744.png,4,0,0,0.106598765,0.0,1,Correct
+87,0,16032,2912,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_16032_y_2912.png,4,0,0,0.104863524,0.0,1,Correct
+87,0,15424,4704,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_15424_y_4704.png,4,0,0,0.32697576,0.0,1,Correct
+80,1,17248,8384,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_17248_y_8384.png,4,0,0,0.18578503,0.0,1,Correct
+86,4,16736,7968,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_16736_y_7968.png,4,0,0,0.14379379,0.0,1,Correct
+81,4,15584,9024,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_15584_y_9024.png,4,0,0,0.21019134,0.0,1,Correct
+86,4,16992,11456,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_16992_y_11456.png,4,0,1,0.528508,0.0,0,Faux Positif
+86,4,14336,12800,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_14336_y_12800.png,4,0,0,0.16939333,0.0,1,Correct
+81,4,16544,12800,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_16544_y_12800.png,4,0,0,0.11449244,0.0,1,Correct
+80,1,17216,17056,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_17216_y_17056.png,4,0,0,0.25339806,0.0,1,Correct
+81,4,16896,17856,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_16896_y_17856.png,4,0,0,0.09110233,0.0,1,Correct
+86,4,15200,17696,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_15200_y_17696.png,4,0,0,0.14450619,0.0,1,Correct
+86,4,16448,21184,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_16448_y_21184.png,4,0,0,0.27760452,0.0,1,Correct
+86,4,15424,22368,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_15424_y_22368.png,4,0,1,0.5444415,0.0,0,Faux Positif
+86,4,16064,20832,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_16064_y_20832.png,4,0,0,0.28423288,0.0,1,Correct
+81,4,17920,2944,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_17920_y_2944.png,4,0,0,0.07736323,0.0,1,Correct
+89,3,18336,3520,..\data\processed\patches_224x224_normalized_sample\patient_089_node_3\patch_patient_089_node_3_x_18336_y_3520.png,4,0,0,0.05039905,0.0,1,Correct
+81,4,19008,1920,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_19008_y_1920.png,4,0,1,0.67926174,0.0,0,Faux Positif
+86,4,17696,9536,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_17696_y_9536.png,4,0,0,0.17599376,0.0,1,Correct
+80,1,19904,9216,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_19904_y_9216.png,4,0,0,0.15782893,0.0,1,Correct
+96,0,20704,9280,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_20704_y_9280.png,4,0,0,0.23768513,0.0,1,Correct
+88,1,19104,13376,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_19104_y_13376.png,4,0,0,0.14215147,0.0,1,Correct
+81,4,19744,11968,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_19744_y_11968.png,4,0,0,0.1592252,0.0,1,Correct
+99,4,21152,14272,..\data\processed\patches_224x224_normalized_sample\patient_099_node_4\patch_patient_099_node_4_x_21152_y_14272.png,4,0,0,0.14739734,0.0,1,Correct
+86,4,17792,15488,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_17792_y_15488.png,4,0,0,0.056309123,0.0,1,Correct
+80,1,17376,15712,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_17376_y_15712.png,4,0,0,0.10181757,0.0,1,Correct
+86,0,20448,19168,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_20448_y_19168.png,4,0,0,0.1443514,0.0,1,Correct
+86,4,18112,21632,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_18112_y_21632.png,4,0,0,0.15175073,0.0,1,Correct
+86,4,18208,21472,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_18208_y_21472.png,4,0,0,0.17574057,0.0,1,Correct
+81,4,17408,19936,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_17408_y_19936.png,4,0,0,0.09773337,0.0,1,Correct
+89,3,23968,3904,..\data\processed\patches_224x224_normalized_sample\patient_089_node_3\patch_patient_089_node_3_x_23968_y_3904.png,4,0,0,0.14077038,0.0,1,Correct
+89,3,25024,2080,..\data\processed\patches_224x224_normalized_sample\patient_089_node_3\patch_patient_089_node_3_x_25024_y_2080.png,4,0,0,0.14091182,0.0,1,Correct
+86,0,22048,3680,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_22048_y_3680.png,4,0,0,0.13526754,0.0,1,Correct
+89,3,24896,6112,..\data\processed\patches_224x224_normalized_sample\patient_089_node_3\patch_patient_089_node_3_x_24896_y_6112.png,4,0,0,0.2339218,0.0,1,Correct
+81,4,22400,5792,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_22400_y_5792.png,4,0,0,0.12848312,0.0,1,Correct
+92,1,25856,9344,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_25856_y_9344.png,4,0,0,0.10489829,0.0,1,Correct
+92,1,24448,10464,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_24448_y_10464.png,4,0,0,0.26577255,0.0,1,Correct
+80,1,21888,14656,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_21888_y_14656.png,4,0,0,0.14498511,0.0,1,Correct
+88,1,22784,14144,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_22784_y_14144.png,4,0,0,0.15448762,0.0,1,Correct
+81,4,23744,15392,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_23744_y_15392.png,4,0,0,0.045854162,0.0,1,Correct
+86,0,24224,19392,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_24224_y_19392.png,4,0,0,0.28820708,0.0,1,Correct
+86,0,22752,18720,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_22752_y_18720.png,4,0,0,0.19456948,0.0,1,Correct
+86,0,25536,20416,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_25536_y_20416.png,4,0,0,0.19201441,0.0,1,Correct
+86,0,25920,21152,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_25920_y_21152.png,4,0,0,0.2247538,0.0,1,Correct
+86,0,22624,21472,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_22624_y_21472.png,4,0,0,0.14113903,0.0,1,Correct
+92,1,30016,4064,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_30016_y_4064.png,4,0,0,0.15674058,0.0,1,Correct
+92,1,29440,2080,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_29440_y_2080.png,4,0,0,0.14720762,0.0,1,Correct
+92,1,29024,1856,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_29024_y_1856.png,4,0,0,0.11416805,0.0,1,Correct
+96,0,27584,5760,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_27584_y_5760.png,4,0,1,0.6683466,0.0,0,Faux Positif
+92,1,29824,9248,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_29824_y_9248.png,4,0,0,0.18130992,0.0,1,Correct
+92,1,26656,6816,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_26656_y_6816.png,4,0,0,0.17281199,0.0,1,Correct
+86,0,30048,10432,..\data\processed\patches_224x224_normalized_sample\patient_086_node_0\patch_patient_086_node_0_x_30048_y_10432.png,4,0,0,0.20138039,0.0,1,Correct
+92,1,26304,10336,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_26304_y_10336.png,4,0,0,0.22116117,0.0,1,Correct
+92,1,26240,11296,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_26240_y_11296.png,4,0,0,0.097117364,0.0,1,Correct
+92,1,30080,19328,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_30080_y_19328.png,4,0,0,0.2541043,0.0,1,Correct
+92,1,28480,18368,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_28480_y_18368.png,4,0,0,0.1573395,0.0,1,Correct
+92,1,29280,19072,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_29280_y_19072.png,4,0,0,0.3226077,0.0,1,Correct
+92,1,29952,20832,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_29952_y_20832.png,4,0,0,0.15551351,0.0,1,Correct
+92,1,27520,21056,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_27520_y_21056.png,4,0,0,0.12401853,0.0,1,Correct
+92,1,28288,20608,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_28288_y_20608.png,4,0,0,0.0979034,0.0,1,Correct
+92,1,31552,3264,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_31552_y_3264.png,4,0,0,0.15608655,0.0,1,Correct
+96,0,32256,3840,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_32256_y_3840.png,4,0,0,0.03218856,0.0,1,Correct
+92,1,31456,3552,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_31456_y_3552.png,4,0,0,0.19258508,0.0,1,Correct
+92,1,31616,7104,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_31616_y_7104.png,4,0,0,0.05350268,0.0,1,Correct
+87,0,31200,9760,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_31200_y_9760.png,4,0,0,0.34186634,0.0,1,Correct
+96,0,30752,6752,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_30752_y_6752.png,4,0,0,0.21032375,0.0,1,Correct
+89,3,32992,10272,..\data\processed\patches_224x224_normalized_sample\patient_089_node_3\patch_patient_089_node_3_x_32992_y_10272.png,4,0,0,0.085704125,0.0,1,Correct
+92,1,32704,12480,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_32704_y_12480.png,4,0,0,0.14476529,0.0,1,Correct
+80,1,32544,10432,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_32544_y_10432.png,4,0,0,0.079959944,0.0,1,Correct
+92,1,33376,16064,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_33376_y_16064.png,4,0,0,0.13296515,0.0,1,Correct
+92,1,33920,15616,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_33920_y_15616.png,4,0,0,0.19716418,0.0,1,Correct
+80,1,31872,18656,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_31872_y_18656.png,4,0,0,0.094167754,0.0,1,Correct
+92,1,32000,20064,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_32000_y_20064.png,4,0,0,0.10911,0.0,1,Correct
+92,1,31296,20352,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_31296_y_20352.png,4,0,0,0.1460695,0.0,1,Correct
+92,1,30272,21152,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_30272_y_21152.png,4,0,0,0.12554882,0.0,1,Correct
+92,1,36832,1760,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_36832_y_1760.png,4,0,0,0.053838298,0.0,1,Correct
+89,3,35776,5024,..\data\processed\patches_224x224_normalized_sample\patient_089_node_3\patch_patient_089_node_3_x_35776_y_5024.png,4,0,0,0.24673627,0.0,1,Correct
+86,4,35680,1632,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_35680_y_1632.png,4,0,0,0.041771907,0.0,1,Correct
+89,3,34752,6784,..\data\processed\patches_224x224_normalized_sample\patient_089_node_3\patch_patient_089_node_3_x_34752_y_6784.png,4,0,0,0.26274958,0.0,1,Correct
+80,1,35552,9472,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_35552_y_9472.png,4,0,0,0.2257865,0.0,1,Correct
+89,3,34912,7552,..\data\processed\patches_224x224_normalized_sample\patient_089_node_3\patch_patient_089_node_3_x_34912_y_7552.png,4,0,0,0.47149855,0.0,1,Correct
+87,0,38432,13952,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_38432_y_13952.png,4,0,0,0.22411346,0.0,1,Correct
+80,1,37120,10784,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_37120_y_10784.png,4,0,0,0.13700329,0.0,1,Correct
+80,1,35040,10080,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_35040_y_10080.png,4,0,0,0.145232,0.0,1,Correct
+87,0,38304,15776,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_38304_y_15776.png,4,0,0,0.16769788,0.0,1,Correct
+92,1,37280,16608,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_37280_y_16608.png,4,0,0,0.23000306,0.0,1,Correct
+80,1,35072,15232,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_35072_y_15232.png,4,0,0,0.23411755,0.0,1,Correct
+80,1,37280,19968,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_37280_y_19968.png,4,0,0,0.088123195,0.0,1,Correct
+87,0,39040,5024,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_39040_y_5024.png,4,0,0,0.14755593,0.0,1,Correct
+87,0,41472,4000,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_41472_y_4000.png,4,0,0,0.1610835,0.0,1,Correct
+87,0,40736,3008,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_40736_y_3008.png,4,0,0,0.26680332,0.0,1,Correct
+96,0,40416,7040,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_40416_y_7040.png,4,0,0,0.2121643,0.0,1,Correct
+96,0,40480,8800,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_40480_y_8800.png,4,0,0,0.19158296,0.0,1,Correct
+80,1,39680,9088,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_39680_y_9088.png,4,0,0,0.114859864,0.0,1,Correct
+87,0,39840,13312,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_39840_y_13312.png,4,0,0,0.29858428,0.0,1,Correct
+96,0,39648,14304,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_39648_y_14304.png,4,0,0,0.11490428,0.0,1,Correct
+96,0,39936,10112,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_39936_y_10112.png,4,0,0,0.20096113,0.0,1,Correct
+96,0,39584,15104,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_39584_y_15104.png,4,0,0,0.120601416,0.0,1,Correct
+86,4,42336,15456,..\data\processed\patches_224x224_normalized_sample\patient_086_node_4\patch_patient_086_node_4_x_42336_y_15456.png,4,0,0,0.06566454,0.0,1,Correct
+87,0,39552,15200,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_39552_y_15200.png,4,0,0,0.26379398,0.0,1,Correct
+80,1,41312,20224,..\data\processed\patches_224x224_normalized_sample\patient_080_node_1\patch_patient_080_node_1_x_41312_y_20224.png,4,0,0,0.21308038,0.0,1,Correct
+88,1,10720,5568,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_10720_y_5568.png,4,1,1,0.60881233,1.0,1,Correct
+88,1,10464,6368,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_10464_y_6368.png,4,1,1,0.958969,1.0,1,Correct
+88,1,10176,6560,..\data\processed\patches_224x224_normalized_sample\patient_088_node_1\patch_patient_088_node_1_x_10176_y_6560.png,4,1,0,0.23340826,1.0,0,Faux Négatif
+81,4,16640,5344,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_16640_y_5344.png,4,1,0,0.47563365,1.0,0,Faux Négatif
+81,4,16768,5408,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_16768_y_5408.png,4,1,1,0.9396577,1.0,1,Correct
+81,4,16800,5440,..\data\processed\patches_224x224_normalized_sample\patient_081_node_4\patch_patient_081_node_4_x_16800_y_5440.png,4,1,1,0.9107322,1.0,1,Correct
+99,4,20512,4128,..\data\processed\patches_224x224_normalized_sample\patient_099_node_4\patch_patient_099_node_4_x_20512_y_4128.png,4,1,1,0.9259437,1.0,1,Correct
+99,4,18752,4448,..\data\processed\patches_224x224_normalized_sample\patient_099_node_4\patch_patient_099_node_4_x_18752_y_4448.png,4,1,1,0.98527783,1.0,1,Correct
+99,4,20800,1824,..\data\processed\patches_224x224_normalized_sample\patient_099_node_4\patch_patient_099_node_4_x_20800_y_1824.png,4,1,1,0.95306236,1.0,1,Correct
+96,0,20768,6208,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_20768_y_6208.png,4,1,0,0.311222,1.0,0,Faux Négatif
+96,0,21088,6976,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_21088_y_6976.png,4,1,1,0.54669356,1.0,1,Correct
+96,0,21056,7712,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_21056_y_7712.png,4,1,1,0.8833702,1.0,1,Correct
+96,0,21152,10112,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_21152_y_10112.png,4,1,1,0.67627865,1.0,1,Correct
+96,0,21152,10240,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_21152_y_10240.png,4,1,0,0.3662965,1.0,0,Faux Négatif
+96,0,21312,10752,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_21312_y_10752.png,4,1,1,0.80359447,1.0,1,Correct
+96,0,23712,4608,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_23712_y_4608.png,4,1,1,0.7362138,1.0,1,Correct
+96,0,22272,4832,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_22272_y_4832.png,4,1,1,0.6892124,1.0,1,Correct
+96,0,24896,4672,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_24896_y_4672.png,4,1,1,0.91504616,1.0,1,Correct
+96,0,25280,7712,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_25280_y_7712.png,4,1,1,0.5823645,1.0,1,Correct
+96,0,25216,8416,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_25216_y_8416.png,4,1,1,0.7378955,1.0,1,Correct
+96,0,25408,9600,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_25408_y_9600.png,4,1,0,0.42762524,1.0,0,Faux Négatif
+96,0,25856,10112,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_25856_y_10112.png,4,1,1,0.9417482,1.0,1,Correct
+96,0,25216,11392,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_25216_y_11392.png,4,1,1,0.8515348,1.0,1,Correct
+96,0,22368,10912,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_22368_y_10912.png,4,1,1,0.81396675,1.0,1,Correct
+96,0,26912,4352,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_26912_y_4352.png,4,1,1,0.7267444,1.0,1,Correct
+96,0,26432,4800,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_26432_y_4800.png,4,1,0,0.35862195,1.0,0,Faux Négatif
+96,0,26848,4704,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_26848_y_4704.png,4,1,0,0.21063326,1.0,0,Faux Négatif
+96,0,26080,9696,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_26080_y_9696.png,4,1,0,0.44481418,1.0,0,Faux Négatif
+96,0,26848,6528,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_26848_y_6528.png,4,1,1,0.89347976,1.0,1,Correct
+96,0,27552,8672,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_27552_y_8672.png,4,1,0,0.47967917,1.0,0,Faux Négatif
+96,0,27040,10144,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_27040_y_10144.png,4,1,1,0.7285939,1.0,1,Correct
+96,0,26528,10080,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_26528_y_10080.png,4,1,1,0.88975465,1.0,1,Correct
+96,0,26560,10368,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_26560_y_10368.png,4,1,1,0.54574674,1.0,1,Correct
+96,0,33824,4064,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_33824_y_4064.png,4,1,1,0.84620976,1.0,1,Correct
+96,0,32256,4416,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_32256_y_4416.png,4,1,1,0.9290312,1.0,1,Correct
+96,0,32000,4608,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_32000_y_4608.png,4,1,1,0.73797804,1.0,1,Correct
+96,0,31456,5824,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_31456_y_5824.png,4,1,1,0.7234736,1.0,1,Correct
+96,0,32832,9376,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_32832_y_9376.png,4,1,1,0.9036013,1.0,1,Correct
+96,0,32608,8928,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_32608_y_8928.png,4,1,1,0.7683422,1.0,1,Correct
+96,0,33824,11808,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_33824_y_11808.png,4,1,1,0.8762115,1.0,1,Correct
+96,0,31744,10752,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_31744_y_10752.png,4,1,0,0.18485455,1.0,0,Faux Négatif
+96,0,32864,10272,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_32864_y_10272.png,4,1,1,0.9037791,1.0,1,Correct
+92,1,31392,17792,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_31392_y_17792.png,4,1,1,0.8138619,1.0,1,Correct
+92,1,31136,18688,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_31136_y_18688.png,4,1,1,0.5199059,1.0,1,Correct
+92,1,32032,17376,..\data\processed\patches_224x224_normalized_sample\patient_092_node_1\patch_patient_092_node_1_x_32032_y_17376.png,4,1,1,0.75212187,1.0,1,Correct
+96,0,36320,3712,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_36320_y_3712.png,4,1,1,0.77947015,1.0,1,Correct
+96,0,34784,2656,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_34784_y_2656.png,4,1,1,0.7607023,1.0,1,Correct
+96,0,35104,4960,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_35104_y_4960.png,4,1,1,0.8042125,1.0,1,Correct
+96,0,34752,5440,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_34752_y_5440.png,4,1,1,0.6735874,1.0,1,Correct
+96,0,35136,7232,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_35136_y_7232.png,4,1,1,0.81502706,1.0,1,Correct
+96,0,35040,8384,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_35040_y_8384.png,4,1,0,0.34158096,1.0,0,Faux Négatif
+96,0,38080,11648,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_38080_y_11648.png,4,1,1,0.92523825,1.0,1,Correct
+96,0,35136,12000,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_35136_y_12000.png,4,1,1,0.95315146,1.0,1,Correct
+96,0,37696,10400,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_37696_y_10400.png,4,1,1,0.5244278,1.0,1,Correct
+96,0,38976,4480,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_38976_y_4480.png,4,1,0,0.25781697,1.0,0,Faux Négatif
+96,0,39104,5088,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_39104_y_5088.png,4,1,0,0.46144158,1.0,0,Faux Négatif
+96,0,38944,4704,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_38944_y_4704.png,4,1,1,0.8290089,1.0,1,Correct
+96,0,38848,5216,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_38848_y_5216.png,4,1,1,0.8501538,1.0,1,Correct
+96,0,38912,5472,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_38912_y_5472.png,4,1,1,0.63478917,1.0,1,Correct
+96,0,39360,7136,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_39360_y_7136.png,4,1,1,0.63757795,1.0,1,Correct
+96,0,38944,10080,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_38944_y_10080.png,4,1,1,0.94930804,1.0,1,Correct
+87,0,39104,11360,..\data\processed\patches_224x224_normalized_sample\patient_087_node_0\patch_patient_087_node_0_x_39104_y_11360.png,4,1,0,0.14955701,1.0,0,Faux Négatif
+96,0,39200,10144,..\data\processed\patches_224x224_normalized_sample\patient_096_node_0\patch_patient_096_node_0_x_39200_y_10144.png,4,1,1,0.85140073,1.0,1,Correct

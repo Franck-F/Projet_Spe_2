@@ -1,0 +1,30 @@
+{
+  "image_size": 224,
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "transforms": {
+    "train": [
+      "RandomHorizontalFlip(p=0.5)",
+      "RandomVerticalFlip(p=0.5)",
+      "RandomRotation(degrees=90)",
+      "ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1)",
+      "ToTensor()",
+      "Normalize(ImageNet)"
+    ],
+    "inference": [
+      "ToTensor()",
+      "Normalize(ImageNet)"
+    ]
+  },
+  "optimal_threshold": 0.3511773347854614
+}
