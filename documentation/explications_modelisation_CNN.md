@@ -22,7 +22,8 @@ Le notebook a pour but d'entraîner un réseau de neurones convolutif (CNN) capa
 
 * **DEVICE (CPU/CUDA)** : Détermine si les calculs se font sur le processeur (lent) ou la carte graphique (rapide).
 * **BATCH_SIZE (64)** : Nombre d'images traitées simultanément par le modèle. Un batch trop grand sature la mémoire, un batch trop petit rend l'entraînement instable.
-* **LEARNING RATE (LR)** : La vitesse à laquelle le modèle ajuste ses "connaissances". S'il est trop haut, le modèle diverge ; s'il est trop bas, il n'apprend rien.
+* **LEARNING RATE (LR (1e-4) assure que le modèle apprend sûrement et sans s'éparpiller.)** : La vitesse à laquelle le modèle ajuste ses "connaissances". S'il est trop haut, le modèle diverge ; s'il est trop bas, il n'apprend rien.
+* **Le Weight Decay (1e-2)** : assure que le modèle reste simple et robuste, pour être capable de détecter le cancer même sur des images provenant d'un nouveau scanner
 
 ---
 
