@@ -64,6 +64,10 @@ On donne un "poids" plus élevé aux images tumorales lors de la sélection pour
 
 ---
 
+#### Le dataset personnalisé est l'outil qui permet de transformer les données splittées (Pandas) en un format lisible par PyTorch pour l'entraînement. Il "consomme" le split
+
+---
+
 ## 7. Architecture du Modèle (Simple CNN)
 
 **Pourquoi ?** Créer le "cerveau" capable d'extraire des caractéristiques visuelles.
