@@ -48,26 +48,16 @@ venv.bak/
 .vscode/
 
 # Data files (large datasets)
-data/raw/
-data/processed/
-data/annotations/
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/annotations/.gitkeep
+data
+!data/.gitkeep
 
 # Model files (large binary files)
-models/checkpoints/*
-models/final/*.pth
-models/final/*.h5
-models/final/*.pkl
-models/baseline_v1/
-models/production/*.pth
-!models/checkpoints/.gitkeep
-!models/final/.gitkeep
+models
+!models/.gitkeep
 
 # Results
-results/predictions/*
-!results/predictions/.gitkeep
+results
+!results/.gitkeep
 
 # DVC
 .dvc/tmp
