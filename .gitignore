@@ -61,6 +61,7 @@ models/final/*.pth
 models/final/*.h5
 models/final/*.pkl
 models/baseline_v1/
+models/production/*.pth
 !models/checkpoints/.gitkeep
 !models/final/.gitkeep
 

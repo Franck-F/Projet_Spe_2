@@ -26,7 +26,7 @@ Développement d'un système de détection automatique de métastases ganglionna
 
 ## Architecture du Projet
 
-```
+```text
 Projet_Spe_2/
 ├── data/                          # Données (non versionnées)
 │   ├── raw/
@@ -35,11 +35,10 @@ Projet_Spe_2/
 │   └── annotations/               # Fichiers d'annotations
 │
 ├── notebooks/                     # Jupyter notebooks pour exploration
-│   ├── 01_EDA.ipynb              # Analyse exploratoire
-│   ├── 02_preprocessing.ipynb    # Prétraitement
-│   ├── 03_modeling_patch.ipynb   # Modélisation niveau patch
-│   ├── 04_aggregation.ipynb      # Agrégation patch → patient
-│   └── 05_evaluation.ipynb       # Évaluation et interprétabilité
+│   ├── EDA.ipynb                 # Analyse exploratoire complète
+│   ├── modelisation_SimpleCNN_patchs_5000.ipynb  # Pipeline d'entraînement CNN
+│   ├── fairness_transparency.ipynb # Équité, Interpretability (Grad-CAM), ROI
+│   └── 03_modeling_patch_resnet50.ipynb # Alternative ResNet-50
 │
 ├── src/                          # Code source modulaire
 │   ├── data/                     # Gestion des données
